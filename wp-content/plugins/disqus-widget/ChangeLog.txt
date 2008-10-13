@@ -1,0 +1,10 @@
+2008-07-12  Ivan N. Zlatev  <contact@i-nz.net>
+	
+	* Initial import into WordPress SVN
+
+2008-07-06  Ivan N. Zlatev  <contact@i-nz.net>
+
+	* disqus-widget.php: Remove leading weird characters that broke 
+	TinyMCE for some reason.
+
+

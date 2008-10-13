@@ -1,0 +1,80 @@
+.tabberlive .tabbertabhide {
+	display: none;
+	}
+ 
+.tabber {
+	margin: 0px;
+	padding: 0px;
+	}
+
+.tabberlive {
+	margin-bottom: 0px;
+	}
+  
+ul.tabbernav {
+	margin: 0px;
+	padding: 0px;
+	color: #202020;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	font-weight: normal;
+	}
+
+ul.tabbernav li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	}
+	
+ul.tabbernav li a {
+	margin: 0px;
+	padding: 3px 5px 3px 5px;
+	border-bottom: none;
+	text-decoration: none;
+	}
+
+ul.tabbernav li a:link {
+	background: #2255AA url(images/headline.png);
+	color: #FFFFFF;
+	margin: 0px 5px 0px 0px;
+	}
+	
+ul.tabbernav li a:visited {
+	background: #2255AA url(images/headline.png);
+	color: #FFFFFF;
+	}
+
+ul.tabbernav li a:hover {
+	background: #393939;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+ul.tabbernav li.tabberactive a {
+	background: #393939;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+ul.tabbernav li.tabberactive a:hover {
+	background: #2255AA url(images/headline.png);
+	color: #FFFFFF;
+	}
+  
+.tabberlive .tabbertab {
+	background: #FFFFFF;
+	padding: 0px;
+	}
+	
+.tabberlive .tabbertab h2 {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.tabbertab cite {
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+	}

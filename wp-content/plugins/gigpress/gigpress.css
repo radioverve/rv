@@ -1,0 +1,173 @@
+/*
+This is the default stylesheet.  You should probably leave it as is.
+To customize any of these styles, drop a *copy* of this file into your current theme directory.
+Any style changes make there will override styles in this document.
+*/
+
+/* Meet the table that displays our shows */
+.gigpress-table {
+	width: 100%;
+	border: none;
+	border-top: 1px solid #CCC;
+	margin: 10px 0 1em 0;
+	padding-top:10px;
+	clear: both;
+}
+
+/* This is for the main header cells containing the column labels */
+tr.gigpress-header th {
+	font-weight: bold;
+}
+
+/* Generic class for the table header cells */
+.gigpress-table th {
+	padding: 6px 8px;
+	vertical-align: middle;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+}
+
+/* This is for the tour name header cells */
+th.gigpress-heading {
+	background: #F3F3F3;
+	border-bottom: 1px solid #CCC;
+}
+
+/* This is for the tour name headings, whichever one you're using */
+th.gigpress-heading h1, th.gigpress-heading h2, th.gigpress-heading h3, th.gigpress-heading h4, th.gigpress-heading h5 {
+	margin: 0;
+}
+
+/* Applies to all cells in the table */
+.gigpress-table td {
+	padding: 6px 8px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+/* Some subtle hover effects */
+.gigpress-row:hover, .gigpress-info:hover {
+	background: #FCFCFC;
+	color: #000;
+}
+
+/* Applies to the first row of each show listing */
+.gigpress-row td {
+	border-bottom: 1px solid #EEE;
+}
+
+/* To set an alternating row style */
+.gigpress-alt {
+}
+
+/* Individual classes for the label header cells that start the table */
+th.gigpress-date {
+}
+
+th.gigpress-city {
+}
+
+th.gigpress-venue {
+}
+
+th.gigpress-country {
+	text-align: center;
+}
+
+/* Likewise, individual classes for the content cells */
+td.gigpress-date {
+}
+
+td.gigpress-city {
+}
+
+td.gigpress-venue {
+}
+
+td.gigpress-country {
+	text-align: center;
+}
+
+tr.gigpress-info td {
+	font-size: 90%;
+	color: #333;
+	border-bottom: 1px solid #CCC;
+}
+
+/* This wraps each of the address, admission, etc spans in the "info" cell */
+span.gigpress-info-item {
+}
+
+/* For the labels for address, admission, etc in the "info" cell */
+span.gigpress-info-label {
+	color: #666;
+}
+
+/* For the spacer cell that goes in-between tours */
+td.gigpress-empty {
+}
+
+/* In case you want to style the "Buy Tickets" link */
+a.buy-tickets {
+	font-weight: bold;
+}
+
+/* In case you want to style the Googlefied address link */
+a.gigpress-address {
+}
+
+/* This is for the RSS link */
+td.gigpress-rss a {
+	padding-left: 14px;
+	background: transparent url(images/feed-icon-10x10.png) no-repeat left center;
+}
+
+
+
+/* These styles are for the sidebar listing */
+
+/* This is the unordered list that holds the dates */
+ul.gigpress-listing {
+}
+
+/* Generic styles for the list items within */
+.gigpress-listing li {	
+}
+
+/* For tour headings in the sidebar */
+span.gigpress-list-heading {	
+	font-weight: bold;
+	font-size: 110%;
+}
+
+/* So if you like you can syle the first list item differently */
+li.gigpress-list-first {
+}
+
+/* So if you like you can syle the last list item differently */
+li.gigpress-list-last {
+}
+
+/* So if you like you can syle the date differently */
+span.gigpress-date {
+	font-weight: bold;
+	display: block;
+}
+
+/* Add a feed icon to the RSS link */
+li.gigpress-list-rss a {
+	padding-left: 14px;
+	background: transparent url(images/feed-icon-10x10.png) no-repeat left center;
+}
+
+
+/* This is just to include data dor hcalendar support, but hide it from view */
+span.hide {
+	display: none;
+}
+
+/* Stop Firefox from underlining our abbreviated dates */
+abbr {
+	border: none;
+	text-decoration: none;
+}

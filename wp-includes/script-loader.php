@@ -109,6 +109,44 @@ function wp_default_scripts( &$scripts ) {
 		$scripts->localize( 'ajaxcat', 'catL10n', array(
 			'add' => attribute_escape(__('Add')),
 			'how' => __('Separate multiple categories with commas.')
+		$this->add( 'scriptaculous-root', '/wp-includes/js/scriptaculous/scriptaculous.js', array('prototype'), '1.8.0');
+		$this->add( 'scriptaculous-builder', '/wp-includes/js/scriptaculous/builder.js', array('scriptaculous-root'), '1.8.0');
+		$this->add( 'scriptaculous-dragdrop', '/wp-includes/js/scriptaculous/dragdrop.js', array('scriptaculous-builder', 'scriptaculous-effects'), '1.8.0');
+		$this->add( 'scriptaculous-effects', '/wp-includes/js/scriptaculous/effects.js', array('scriptaculous-root'), '1.8.0');
+		$this->add( 'scriptaculous-slider', '/wp-includes/js/scriptaculous/slider.js', array('scriptaculous-effects'), '1.8.0');
+		$this->add( 'scriptaculous-sound', '/wp-includes/js/scriptaculous/sound.js', array( 'scriptaculous-root' ), '1.8.0' );
+		$this->add( 'scriptaculous-controls', '/wp-includes/js/scriptaculous/controls.js', array('scriptaculous-root'), '1.8.0');
+		$this->add( 'scriptaculous', '', array('scriptaculous-dragdrop', 'scriptaculous-slider', 'scriptaculous-controls'), '1.8.0');
+
+		$this->add( 'cropper', '/wp-includes/js/crop/cropper.js', array('scriptaculous-dragdrop'), '20070118');
+
+		$this->add( 'jquery', '/wp-includes/js/jquery/jquery.js', false, '1.2.3');
+		$this->add( 'jquery-form', '/wp-includes/js/jquery/jquery.form.js', array('jquery'), '2.02');
+		$this->add( 'jquery-color', '/wp-includes/js/jquery/jquery.color.js', array('jquery'), '2.0-4561');
+		$this->add( 'interface', '/wp-includes/js/jquery/interface.js', array('jquery'), '1.2' );
+		$this->add( 'dimensions', '/wp-includes/js/jquery/jquery.dimensions.min.js', array('jquery'), '1.1.2');
+		$this->add( 'suggest', '/wp-includes/js/jquery/suggest.js', array('dimensions'), '1.1');
+		$this->add( 'schedule', '/wp-includes/js/jquery/jquery.schedule.js', array('jquery'), '20');
+		//$this->add( 'thickbox', '/wp-includes/js/thickbox/thickbox.js', array('jquery'), '3.1');
+		$this->add('jquery-carousel','/wp-includes/js/jquery/jcarousel.js',array('jquery'),'0.22');
+		$this->add( 'swfupload', '/wp-includes/js/swfupload/swfupload.js', false, '2.0.2');
+		$this->add( 'swfupload-degrade', '/wp-includes/js/swfupload/plugins/swfupload.graceful_degradation.js', array('swfupload'), '2.0.2');
+
+		$this->add( 'jquery-latest', '/wp-includes/js/jquery/jquery.js.1.2.6', false, '1.2.6');
+		$this->add( 'ui-core-latest', '/wp-includes/js/jquery/ui.core.js', array('jquery-latest'), '1.2');
+		$this->add('ui-tabs-latest', '/wp-includes/js/jquery/ui.tabs-new.js', array('ui-core-latest'), '3');
+		//$this->add('jqmodal','/wp-includes/js/jquery/jqModal.js',array('jquery-latest'),'0.1.3');
+		$this->add('thickbox','/wp-includes/js/jquery/thickbox-compressed.js',array('jquery-latest'),'3.1');
+		
+		//This is for all the flash checks
+		$this->add('flash-check','/wp-includes/js/AC_OETags.js',false,'1.6');
+
+		$this->add( 'moo-tools', '/wp-includes/js/gallery/mootools.v1.11.js', false, '1.11');
+		$this->add('jd-gallery','/wp-includes/js/gallery/jd.gallery.js',array('moo-tools'),'2.0');
+
+
+		$this->localize( 'swfupload-degrade', 'uploadDegradeOptions', array(
+			'is_lighttpd_before_150' => is_lighttpd_before_150(),
 		) );
 		$scripts->add( 'admin-categories', '/wp-admin/js/categories.js', array('wp-lists'), '20071031' );
 		$scripts->add( 'admin-tags', '/wp-admin/js/tags.js', array('wp-lists'), '20071031' );

@@ -1,0 +1,45 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		A skinny gallery, designed for sites low on screen real-estate.  Only displays the post title.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]post_title
+			[li]title_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+		
+	</notes>
+
+	<size width="480" height="60"/>
+	
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area. -->
+		<image filename="templates/Skinny/image1.jpg" x="0" y="0" width="480" height="60" resizetype="min"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="6" y="1" width="410">
+			<line fontsize="22" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+		</text>
+
+		<text x="411" y="41" animationspeed="6" animatefrom="right">
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<!-- Main text -->
+		<text x="5" y="0" width="410">
+			<line fontsize="22" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+
+		<text x="410" y="40" animationspeed="6" animatefrom="right">
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		<default name="title_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+</data>

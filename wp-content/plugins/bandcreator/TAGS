@@ -1,0 +1,48 @@
+
+bandcreator.php,1740
+function gnrb_end_slash(gnrb_end_slash30,1081
+function gnrb_message(gnrb_message35,1201
+function gnrb_update_options(gnrb_update_options75,3097
+function gnrb_install(gnrb_install88,3629
+function gnrb_admin(gnrb_admin171,7242
+function gnrb_band_admin(gnrb_band_admin179,7532
+function gnrb_super_admin(gnrb_super_admin204,8190
+function gnrb_edit_field(gnrb_edit_field255,9584
+function gnrb_member_edit(gnrb_member_edit285,10804
+function gnrb_member_delete(gnrb_member_delete323,11881
+function gnrb_unassociated_bands(gnrb_unassociated_bands332,12116
+function gnrb_create_band_user(gnrb_create_band_user440,15989
+function gnrb_get_field_id(gnrb_get_field_id470,16929
+function gnrb_edit_band(gnrb_edit_band476,17119
+function gnrb_options_page(gnrb_options_page528,18846
+function gnrb_management_page(gnrb_management_page534,19022
+function gnrb_profile_page(gnrb_profile_page543,19413
+function gnrb_get_fieldtype_select(gnrb_get_fieldtype_select552,19719
+function gnrb_fix_windows_path(gnrb_fix_windows_path562,20055
+function gnrb_upload(gnrb_upload573,20339
+function gnrb_get_bands_list(gnrb_get_bands_list599,21205
+function gnrvp_get_artist_info(gnrvp_get_artist_info627,22241
+function gnrvp_get_artist_name(gnrvp_get_artist_name695,24723
+function gnrb_get_band_navigator(gnrb_get_band_navigator728,25744
+function gnrb_get_bands_shortdata(gnrb_get_bands_shortdata759,26586
+function gnrb_get_artists_icecast(gnrb_get_artists_icecast777,27204
+function gnrb_get_artistname_icecast(gnrb_get_artistname_icecast791,27652
+function gnrb_get_(gnrb_get_801,27916
+function gnrb_delete_dead_bands(gnrb_delete_dead_bands816,28352
+function gnrb_get_num_dead_bands(gnrb_get_num_dead_bands849,29337
+
+management.tpl.php,0
+
+options.tpl.php,425
+					<th scope=19,755
+						<b>e.g.</b> Vocal,23,1036
+						<b>e.g.</b> Vocal, Lead Guitar,23,1036
+						<b>e.g.</b> Vocal, Lead Guitar, Rhythm Guitar,23,1036
+					<th scope=27,1130
+						<input type="hidden" name="page" value="<?php echo $gnrb_plugin_folder;59,2393
+						<input type="submit" name="gnrb_update_options" value="Update Options &raquo;60,2478
+				$editable = $f->field_editable ? "checked=\"che92,3331
+
+profile.tpl.php,135
+				function gnrb_get_field_value(gnrb_get_field_value13,580
+			function gnrb_member_role_options(gnrb_member_role_options107,4155

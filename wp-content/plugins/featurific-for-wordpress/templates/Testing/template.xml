@@ -1,0 +1,160 @@
+<!--		
+		tags are combination of all post parameters, categories, and custom fields
+		category_x tags for however many categories there are
+		categories tag - comma separated list of categories
+
+		TODO
+		after substitution should look for unreplaced tags (e.g. %this_delimiter_does_not_exist%) and repalce them with ''?
+		split all dates into separate fields for date and time
+		pretty-fy all dates and times
+		deal with special characters - '<', '"', etc.  (What chars are special chars?)
+		on escaping quotes - how can I tell what kind of quotes a field uses?
+		add convenience tags.  For example, right now, the URL of the post is in 'guid'.  However, it makes more sense to put it in a tag named 'url' or 'address' or something.
+-->
+
+<!--
+	Am I going to have caching problems with the data.xml?  The data.xml file regenerates every x minutes, but will
+the browsers use the newest version, or just the cached version?  Probably just the cached version!
+	SOLUTION
+		I could do a bunch of fancy stuff with HTTP headers and such probably...
+		OR, I could do something much easier (that guarantees there will be no cache hits) - just change the filename every time!
+		What a simple solution! :)
+-->
+
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		For experimentation and testing by template creators.  Provides a comprehensive listing of the tags available to templates.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]Too many to list.  See templates/Testing/template.xml
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="500" height="600"/>
+	
+	<controlpanel>
+		<button type="previous"/>
+		<button type="next"/>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+	<screen url="http: //microsoft.com" duration="%screen_duration%" transition="fade">
+		<text x="400" y="0" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#eeeeee" text="%screen_number%"/></text>
+		<text x="380" y="45" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#dddddd" text="Screen"/></text>
+		<text x="400" y="450" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#eeeeee" text="%screen_number%"/></text>
+		<text x="380" y="495" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#dddddd" text="Screen"/></text>
+
+		<text x="10" y="0">
+			<line fontsize="14" fontstyle="bold" text="Test Template"/>
+		</text>
+
+		<text x="10" y="15">
+			<!-- Post data from get_posts() -->
+			<line fontsize="12" fontstyle="bold" text="Post tags"/>
+			<line fontsize="9" text="ID: %ID%"/>
+			<line fontsize="9" text="post_author: %post_author%"/>
+			<line fontsize="9" text="post_date: %post_date%"/>
+			<line fontsize="9" text="post_date_gmt: %post_date_gmt%"/>
+			<line fontsize="9" text="post_content: %post_content%"/>
+			<line fontsize="9" text="post_title: %post_title%"/>
+			<line fontsize="9" text="post_category: %post_category%"/>
+			<line fontsize="9" text="post_excerpt: %post_excerpt%"/>
+			<line fontsize="9" text="post_status: %post_status%"/>
+			<line fontsize="9" text="comment_status: %comment_status%"/>
+			<line fontsize="9" text="ping_status: %ping_status%"/>
+			<line fontsize="9" text="post_password: %post_password%"/>
+			<line fontsize="9" text="post_name: %post_name%"/>
+			<line fontsize="9" text="to_ping: %to_ping%"/>
+			<line fontsize="9" text="pinged: %pinged%"/>
+			<line fontsize="9" text="post_modified: %post_modified%"/>
+			<line fontsize="9" text="post_modified_gmt: %post_modified_gmt%"/>
+			<line fontsize="9" text="post_content_filtered: %post_content_filtered%"/>
+			<line fontsize="9" text="post_parent: %post_parent%"/>
+			<line fontsize="9" text="guid: %guid%"/>
+			<line fontsize="9" text="menu_order: %menu_order%"/>
+			<line fontsize="9" text="post_type: %post_type%"/>
+			<line fontsize="9" text="post_mime_type: %post_mime_type%"/>
+			<line fontsize="9" text="comment_count: %comment_count%"/>
+		</text>
+			
+		<text x="10" y="400">
+			<!-- Category data from wp_get_post_categories() -->
+			<line fontsize="12" fontstyle="bold" text="Category/Tag tags"/>
+			<line fontsize="9" text="category_1: %category_1%"/><!-- For each category, a %category_x% tag is available.  -->
+			<line fontsize="9" text="category_2: %category_2%"/><!-- For example, if a given post had 13 categories, then -->
+			<line fontsize="9" text="category_3: %category_3%"/><!-- fields %category_1% through %category_13% would be   -->
+			                                                    <!-- available.                                           -->
+			                                                    <!-- In this case, we display up to three categories.      -->
+
+			<line fontsize="9" text="categories: %categories%"/><!-- A tag created by Featurific for Wordpress
+			                                                         containing a comma-separated list of categories for
+			                                                         the given post -->
+			
+			<line fontsize="9" text="tag_1: %tag_1%"/>
+			<line fontsize="9" text="tag_2: %tag_2%"/>
+			<line fontsize="9" text="tag_3: %tag_3%"/>
+			<line fontsize="9" text="tags: %tags%"/>
+		</text>
+
+		<text x="10" y="540">
+			<!-- Custom field data from get_post_custom() -->
+			<line fontsize="12" fontstyle="bold" text="Custom field tags"/>
+			<line fontsize="9" text="customfield: %customfield%"/><!-- For each custom field on a given post, an          -->
+			                                                      <!-- equivalent tag is available.  In this case, we are -->
+			                                                      <!-- displaying the custom field named 'customfield'.   -->
+		</text>
+		
+		<text x="220" y="2">
+			<!-- Convenience tags created by Featurific for Wordpress -->
+			<line fontsize="14" fontstyle="bold" text="Convenience tags"/>
+			<line fontsize="12" fontstyle="bold" text="General tags"/>
+			<line fontsize="9" text="nickname: %nickname%"/><!-- The author's nickname.                                   -->
+			<line fontsize="9" text="url: %url%"/>
+			<line fontsize="9" text="screen_number: %screen_number%"/>
+			<line fontsize="9" text="image_1: %image_1%"/>
+			<line fontsize="9" text="image_2: %image_2%"/>
+			<line fontsize="9" text="image_3: %image_3%"/>
+			<line fontsize="9" text="this_delimiter_does_not_exist: %this_delimiter_does_not_exist%"/>
+			<line fontsize="9" text="Escaping a '&#37;' sign: &#37;"/>
+
+			<line fontsize="1" text=" "/>
+			<line fontsize="12" fontstyle="bold" text="Formatted date tags"/>
+			<line fontsize="9" text="post_human_date: %post_human_date%"/>
+			<line fontsize="9" text="post_long_human_date: %post_long_human_date%"/>
+			<line fontsize="9" text="post_slashed_date: %post_slashed_date%"/>
+			<line fontsize="9" text="post_dotted_date: %post_dotted_date%"/>
+			<line fontsize="9" text="post_human_time: %post_human_time%"/>
+			<line fontsize="9" text="post_long_human_time: %post_long_human_time%"/>
+			<line fontsize="9" text="post_military_time: %post_military_time%"/>
+
+			<line fontsize="9" text=" "/>
+			<line fontsize="9" text="post_modified_human_date: %post_modified_human_date%"/>
+			<line fontsize="9" text="post_modified_long_human_date: %post_modified_long_human_date%"/>
+			<line fontsize="9" text="post_modified_slashed_date: %post_modified_slashed_date%"/>
+			<line fontsize="9" text="post_modified_dotted_date: %post_modified_dotted_date%"/>
+			<line fontsize="9" text="post_modified_human_time: %post_modified_human_time%"/>
+			<line fontsize="9" text="post_modified_long_human_time: %post_modified_long_human_time%"/>
+			<line fontsize="9" text="post_modified_military_time: %post_modified_military_time%"/>
+
+			<line fontsize="12" text=" "/>
+			<line fontsize="12" fontstyle="bold" text="Date tags"/>
+			<line fontsize="9" text="Any character from PHP's date() specification is valid.  Google 'php date' for a full listing."/>
+			<line fontsize="9" text="post_date_F: %post_date_F%"/>
+			<line fontsize="9" text="post_date_e: %post_date_e%"/>
+			<line fontsize="9" text="post_date_U: %post_date_U%"/>
+			<line fontsize="9" text="post_date_d: %post_date_d%"/>
+			<line fontsize="9" text="(etc.)"/>
+			<line fontsize="9" text=" "/>
+			<line fontsize="9" text="post_modified_date_F: %post_modified_date_F%"/>
+			<line fontsize="9" text="post_modified_date_e: %post_modified_date_e%"/>
+			<line fontsize="9" text="post_modified_date_U: %post_modified_date_U%"/>
+			<line fontsize="9" text="post_modified_date_d: %post_modified_date_d%"/>
+			<line fontsize="9" text="(etc.)"/>
+		</text>
+	</screen>
+
+</data>

@@ -1,0 +1,117 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		A gallery similar to that of NationalGeographic.com.  It uses the first picture found in each post as the main image for each screen.  To resize the width of the gallery, open NationalGeographic.com/template.xml and replace each instance of 'width="480"' with 'width="xxx"'.  Resizing the height is done likewise, but requires a bit of addition/subtraction.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]post_title
+			[li]post_excerpt
+			[li]title_color
+			[li]excerpt_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].  National Geographic is a registered trademark of the National Geographic Society.
+	</notes>
+
+	<size width="480" height="240"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="480" height="210" resizetype="min"/>
+		<default name="image_1" value="templates/NationalGeographic.com/default.jpg"/>
+		
+		<!-- Black portion at bottom, behind control panel.  Note that this black portion is listed *after* the main image.  This will cause the main image to be cropped by the lighter grey portion.  This is necessary since we're using the 'min' resize type on the main image. -->
+		<image filename="templates/NationalGeographic.com/black.gif" x="0" y="210" width="480" height="30" resizetype="exact"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="11" y="11" width="470" animationspeed="6" animatefromx="10" animatefromy="-100">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<!-- <text x="11" y="9" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<text x="9" y="11" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<text x="9" y="9" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text> -->
+
+		<!-- Main text -->
+		<text x="10" y="10" width="470" animationspeed="6" animatefromx="10" animatefromy="-100">
+			<line fontsize="24" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#e8c31e"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="480" height="210" resizetype="min"/>
+		<default name="image_1" value="templates/NationalGeographic.com/default.jpg"/>
+		
+		<!-- Black portion at bottom, behind control panel.  Note that this black portion is listed *after* the main image.  This will cause the main image to be cropped by the lighter grey portion.  This is necessary since we're using the 'min' resize type on the main image. -->
+		<image filename="templates/NationalGeographic.com/black.gif" x="0" y="210" width="480" height="30" resizetype="exact"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="11" y="11" width="470" animationspeed="6" animatefromx="-200" animatefromy="10">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<!-- <text x="11" y="9" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<text x="9" y="11" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text>
+
+		<text x="9" y="9" width="470">
+			<line fontsize="24" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="black" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="black" text="Read More"/>
+		</text> -->
+
+		<!-- Main text -->
+		<text x="10" y="10" width="470" animationspeed="6" animatefromx="-200" animatefromy="10">
+			<line fontsize="24" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="16" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#e8c31e"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+</data>

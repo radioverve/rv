@@ -1,0 +1,73 @@
+<?php
+/*                                                                                                                                                                                 
+Template Name: Listen                                                                                                                                                              
+*/
+wp_enqueue_script('jquery-carousel');
+jal_add_to_head();
+get_header();
+?>
+<!--Player START-->
+					<?php get_player(); ?>
+<!--Player END-->
+
+<!--Middle section START-->
+
+<!--Featured thingy START-->
+					<?php get_featured(); ?>
+<!--Featured thingy END-->					
+					<div id="content">
+						<div id="contentleft">
+<!--Article container START-->							
+							<div id="postarea">
+<!--Post START-->								
+<?php c2c_get_recent_posts(5, $format="<div class=\"post\">
+<h1><a href=\"%post_url%\" rel=\"bookmark\">%post_title%</a></h1>
+
+<div class=\"date\">			
+		<div class=\"dateleft\">
+			<p><span class=\"time\">%post_date%</span> by <a>%post_author%</a> &nbsp; <br /> Filed under %post_categories_URL%</p> 
+		</div>
+			
+		<div class=\"dateright\">
+			<p><span class=\"comment\"><a href=\"%comments_url%\" title=\"Comment on %post_title%\">Leave a Comment</a></span></p> 
+		</div>
+				
+</div>
+
+<p>%post_excerpt%</p>
+<span class=\"listenbutton\"><a href=\"%post_url%\">Read more</a></span>
+</div>
+<div style=\"clear:both;\"></div>
+
+<div class=\"postmeta2\">
+				<p><span class=\"tags\">Tags: %post_tags_URL%</span></p>
+			</div>
+
+", "-22"); ?>
+<!--Post END-->								
+							</div>	
+<!--Article container END-->
+								
+						</div>
+						<!--Sidebar START-->
+							
+							<div id="sidebar">
+<!--Sidebar:shoutbox START-->
+								<?php get_sidebar('shoutbox'); ?>
+<!--Sidebar:shoutbox END-->
+
+<!--Sidebar:events START-->
+								<?php get_sidebar('events'); ?>
+<!--Sidebar:events END-->								
+
+							</div>
+<!--Sidebar END-->
+					</div>	
+									
+				
+			</div>	
+	</div>
+
+<!--Middle section END-->
+
+<?php get_footer(); ?>

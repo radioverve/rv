@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpresscom-popular-posts\n"
+"POT-Creation-Date: 2008-07-01 02:33+0200\n"
+"PO-Revision-Date: 2008-05-18 19:03+0200\n"
+"Last-Translator: Frasten <frasten@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wppp.php:14 wppp.php:176 wppp.php:177
+msgid "Popular Posts"
+msgstr "Articoli più letti"
+
+#: wppp.php:239
+msgid "Title"
+msgstr "Titolo"
+
+#: wppp.php:243
+msgid "Number of links shown"
+msgstr "Numero di collegamenti mostrati"
+
+#: wppp.php:247
+msgid "The length (in days) of the desired time frame.<br />0 means unlimited"
+msgstr ""
+"La quantità di giorni dell'intervallo di tempo.<br />0 sta per illimitato"
+
+#: wppp.php:251
+msgid "Show: "
+msgstr "Mostra: "
+
+#: wppp.php:254
+msgid "posts and pages"
+msgstr "articoli e pagine"
+
+#: wppp.php:255
+msgid "only posts"
+msgstr "solo articoli"
+
+#: wppp.php:256
+msgid "only pages"
+msgstr "solo pagine"
+
+#: wppp.php:268
+msgid ""
+"Format of the links. See <a href=\"http://polpoinodroidi.com/wordpress-"
+"plugins/wordpresscom-popular-posts/\">docs</a> for help"
+msgstr ""
+"Formato dei collegamenti. Leggere la <a href=\"http://polpoinodroidi.com/"
+"wordpress-plugins/wordpresscom-popular-posts/\">documentazione</a> per "
+"informazioni in merito"
+
+#: wppp.php:272
+msgid "Length of the excerpt (if %post_excerpt% is used in the format above)"
+msgstr ""
+"Lunghezza del riassunto (se %post_excerpt% è utilizzato nel formato qui "
+"sopra)"
+
+#: wppp.php:273 wppp.php:277
+msgid " characters"
+msgstr " caratteri"
+
+#: wppp.php:276
+msgid "Max length of the title links.<br />0 means unlimited"
+msgstr "Lunghezza massima dei titoli dei links.<br />0 sta per illimitato"

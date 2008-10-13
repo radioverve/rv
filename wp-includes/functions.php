@@ -1,11 +1,5 @@
 <?php
 /**
- * Main WordPress API
- *
- * @package WordPress
- */
-
-/**
  * Converts MySQL DATETIME field to user specified date format.
  *
  * If $dateformatstring has 'G' value, then gmmktime() function will be used to

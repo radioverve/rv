@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpresscom-popular-posts\n"
+"POT-Creation-Date: 2008-07-01 02:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wppp.php:14 wppp.php:176 wppp.php:177
+msgid "Popular Posts"
+msgstr ""
+
+#: wppp.php:239
+msgid "Title"
+msgstr ""
+
+#: wppp.php:243
+msgid "Number of links shown"
+msgstr ""
+
+#: wppp.php:247
+msgid "The length (in days) of the desired time frame.<br />0 means unlimited"
+msgstr ""
+
+#: wppp.php:251
+msgid "Show: "
+msgstr ""
+
+#: wppp.php:254
+msgid "posts and pages"
+msgstr ""
+
+#: wppp.php:255
+msgid "only posts"
+msgstr ""
+
+#: wppp.php:256
+msgid "only pages"
+msgstr ""
+
+#: wppp.php:268
+msgid ""
+"Format of the links. See <a href=\"http://polpoinodroidi.com/wordpress-"
+"plugins/wordpresscom-popular-posts/\">docs</a> for help"
+msgstr ""
+
+#: wppp.php:272
+msgid "Length of the excerpt (if %post_excerpt% is used in the format above)"
+msgstr ""
+
+#: wppp.php:273 wppp.php:277
+msgid " characters"
+msgstr ""
+
+#: wppp.php:276
+msgid "Max length of the title links.<br />0 means unlimited"
+msgstr ""

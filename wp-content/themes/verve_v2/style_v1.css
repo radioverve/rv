@@ -1,0 +1,296 @@
+/*
+Theme Name: Radio VeRve
+Theme URI: http://radioverve.com/
+Description: Radio verev theme 2.0
+Version: 1.6
+Author: Jonathan, Shreyas & Praveen
+Author URI: http://radioverve.com/
+Tags: do, we, realy, need, tags, here
+
+	Fill in this description later.
+	Get the layout integrated first :D
+
+*/
+
+
+
+/* Global reset */
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100% }
+q:before, q:after { content:''}
+a { text-decoration:none }
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight:bold }
+em { font-style:italic }
+* a { position:relative } /* Gets links displaying over a PNG background */
+a img { border:none } /* Gets rid of IE's blue borders */
+
+
+/* Let's get started */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: Helvetica, Arial, FreeSans, Jamrul, sans-serif;
+	font-size: 16px;
+}
+
+#container{
+	position: relative;
+	min-height: 100%;
+	background: url(images/headerBackground.gif) top repeat-x;
+	padding-bottom: 170px;
+}
+
+* html #container{
+	height: 100%;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header{
+}
+
+#logo{
+	float: left;
+	width: 282px;
+}
+
+/***** Navigation Styles *****/
+#nav{
+	float: left;
+	width: 520px;
+	padding-left: 95px;
+	font-size: 14px;
+}
+
+#nav ul{
+	margin-top: 5px;
+	list-style: none;
+	float: left;
+}
+
+#nav li{      
+	float:left;
+  	background:url("images/leftNavAll.png") no-repeat left top;
+    margin:0 10px 0 0;
+    padding:0 0 0 8px;
+}
+
+#nav a {
+	float:left;
+	display:block;
+	width:.1em;
+	background:url("images/rightNavAll.png") no-repeat right top;
+	padding:5px 14px 5px 6px;
+	text-decoration:none;
+	color:#fff;
+}
+
+#nav > ul a {width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav a {float:none;}
+/* End IE5-Mac hack */
+
+#home #navHome, #artists #navArtists,
+#articles #navArticles, #events #navEvents,
+#podcasts #navPodcasts {
+	background-position:0 -24px;
+	border-width:0;
+}
+#home #navHome a, #artists #navArtists a,
+#articles #navArticles a, #events #navEvents a,
+#podcasts #navPodcasts a {
+	background-position:100% -24px;
+	padding-bottom:5px;
+	color:#fff;
+}
+
+#nav li:hover, #nav li:hover a {
+	background-position:0% -48px;
+	color: #000;
+}
+#nav li:hover a {
+	background-position:100% -48px;
+}
+/*****  End Navigation Styles *****/
+
+/***** Player/ Thingy Styles *****/
+#player, #content{
+	clear: both;
+}
+
+#player{
+	height: 300px;
+	background: url(images/playerDropShadow.png) bottom center no-repeat;
+}
+
+#featureThingy{
+	height: 32px;
+	width: 798px;
+	margin: 0 auto;
+	/*background: url(images/featureThingyBackground.png);*/
+}
+
+#featureThingy ul li{
+	padding: 10px;
+	color: #505050;
+	font-size: 14px;
+}
+/*****  End Player/ Thingy Styles *****/
+
+
+/*****  Content/Articles/Sidebar *****/
+#content{
+	width: 947px;
+	margin-top: 20px;	
+}
+
+#contentTop{
+	width: 947px;
+	height: 5px;
+	background: url(images/articlesTopBackground.png) no-repeat;
+}
+
+#contentMiddle{
+	width: 947px;
+	height: auto;
+	float: left;
+	display: block;
+	background: url(images/articlesMiddleBackground.png) repeat-y;
+}
+
+#contentBottom{
+	width: 947px;
+	height: 6px;
+	background: url(images/articlesBottomBackground.png) no-repeat;
+	clear: both;
+	display: block;
+}
+
+#articleContainer{
+	width: 590px;
+	display: inline;
+	float: left;
+}
+
+#sidebar{
+	width: 350px;
+	display: inline;
+	float: right;
+}
+
+/***** Shoutbox styles ******/
+#shoutbox{
+	width:330px;
+	padding-right:10px;
+	background-color:#FFFFFF;
+        padding-bottom:10px;
+}
+
+#shoutbox h3{
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+#shoutbox a{
+	width:100px;
+	font-size:small;
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+#shoutboxMiddle{
+	padding-left:5px;
+}
+
+#wordspew{
+	padding-top:15px;
+	height:auto;
+	width:175px;
+	font:10px verdana;color:#1C1C1C;
+}
+
+#chatForm {
+	border-bottom:1px solid #76ae76;
+	display:none;
+}
+
+#chatForm input, #chatForm textarea {
+	float:left;
+	font-size:small;
+	width:180px;
+	margin:2px 0 2px 5px;
+	background:#34383b;
+	border:1px solid #42494f;
+	color:#9a9c9d;
+}
+
+#chatForm input:hover,#chatForm textarea:hover{
+	background:#3f4448;
+	color:#fff;
+}
+
+#chatForm label{
+	display:none;
+}
+
+#outputList li{
+	list-style:none;
+	margin-top:10px
+}
+
+#showLink{
+	display:block;
+	width:100px;
+	border:1px solid #42494f;
+	color:#76ae76;
+}
+
+#shouttest{
+	padding-bottom:10px;
+	width:300px;
+}
+
+#showLink:hover{
+	background-position:0 top;
+}
+
+/****** Events ***********/
+
+#eventsMiddle
+{
+        width:330px;
+	padding-right:10px;
+	background-color:#FFFFFF;
+        margin-top:10px;
+        padding-left:5px;
+}
+
+#eventsMiddle h3{
+        padding-top:10px;
+        padding-bottom:10px;   
+}
+
+/***** Footer Styles *****/
+#footer{
+	background: #000;
+	color: #ccc;
+	position: relative;
+	margin-top: -120px;
+}
+

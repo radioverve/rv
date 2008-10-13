@@ -1,0 +1,13 @@
+/* overrides to make IE6 conform */
+
+ul.tabbed_sidebar {
+display:inline;
+margin-left:-3px !important;
+padding:0;
+}
+
+ul.tabbed_sidebar li.tab {
+display:inline;
+margin-left:0px !important;
+margin-bottom:0px;
+}

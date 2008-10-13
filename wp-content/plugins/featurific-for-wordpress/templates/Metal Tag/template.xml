@@ -1,0 +1,43 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Metal tag superimposed upon the image associated with the post.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]post_title
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="300"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="400" height="300" resizetype="min"/>
+		<!-- <default name="image_1" value="templates/Metal Tag/default.jpg"/> -->
+
+		<!-- Metal Tag -->
+		<image filename="templates/Metal Tag/metalTag.png" x="200" y="170" animationspeed="5" animatefromx="1000" animatefromy="1000"/>
+
+		<!-- Shadow text -->
+		<!-- <text x="256" y="196" width="125" animationspeed="5" animatefromx="1000" animatefromy="1000">
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+		</text> -->
+
+		<!-- Main text -->
+		<text x="255" y="195" width="125" animationspeed="5" animatefromx="1000" animatefromy="1000">
+			<line fontsize="14" fontstyle="bold" fontcolor="#4f3913" text="%post_title%"/>
+		</text>
+	</screen>
+
+</data>

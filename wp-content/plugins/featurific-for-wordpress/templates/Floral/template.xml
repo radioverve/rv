@@ -1,0 +1,125 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Floral goodness.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]post_title
+			[li]post_excerpt
+			[li]title_color
+			[li]excerpt_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="300"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Floral/1.jpg" x="0" y="0"/>
+		<image filename="templates/Floral/white50.png" x="10" y="30" width="170" height="100" resizetype="exact"/>
+		
+		<!-- Shadow text -->
+		<text x="11" y="31" width="170" animationspeed="6" animatefromx="-50" animatefromy="31">
+			<line fontsize="12" fontstyle="bold" fontcolor="white" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="white" text="Read More"/>
+		</text>
+
+		<!-- Main text -->
+		<text x="10" y="5" animationspeed="6" animatefromx="10" animatefromy="-50">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="30" width="170" animationspeed="6" animatefromx="-50" animatefromy="31">
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="#6b2d59"/>
+		<default name="excerpt_color" value="black"/>
+		<default name="read_more_color" value="#e761c0"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Floral/2.jpg" x="0" y="0"/>
+		<image filename="templates/Floral/white50.png" x="65" y="50" width="300" height="100" resizetype="exact"/>
+		
+		<!-- Shadow text -->
+		<text x="66" y="51" width="300" animationspeed="6" animatefrom="right">
+			<line fontsize="12" fontstyle="bold" fontcolor="white" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="white" text="Read More"/>
+		</text>
+
+		<!-- Main text -->
+		<text x="10" y="5" animationspeed="6" animatefromx="10" animatefromy="-50">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="65" y="50" width="300" animationspeed="6" animatefrom="right">
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="#0f520f"/>
+		<default name="excerpt_color" value="black"/>
+		<default name="read_more_color" value="#1fac1f"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Floral/3.jpg" x="0" y="0"/>
+		
+		<!-- Shadow text -->
+		<text x="11" y="141" width="150" animationspeed="6" animatefrom="bottom">
+			<line fontsize="12" fontstyle="bold" fontcolor="white" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="white" text="Read More"/>
+		</text>
+
+		<!-- Main text -->
+		<text x="10" y="5" animationspeed="6" animatefromx="10" animatefromy="-50">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="140" width="150" animationspeed="6" animatefrom="bottom">
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="#5d3730"/>
+		<default name="excerpt_color" value="black"/>
+		<default name="read_more_color" value="#c17264"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Floral/4.jpg" x="0" y="0"/>
+		<image filename="templates/Floral/white50.png" x="95" y="110" width="200" height="100" resizetype="exact"/>
+		
+		<!-- Shadow text -->
+		<text x="96" y="111" width="200" animationspeed="6" animatefrom="top">
+			<line fontsize="12" fontstyle="bold" fontcolor="white" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="white" text="Read More"/>
+		</text>
+
+		<!-- Main text -->
+		<text x="10" y="250" animationspeed="6" animatefromx="10" animatefromy="350">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="95" y="110" width="200" animationspeed="6" animatefrom="top">
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="#5d0901"/>
+		<default name="excerpt_color" value="black"/>
+		<default name="read_more_color" value="#c71302"/>
+	</screen>
+
+</data>

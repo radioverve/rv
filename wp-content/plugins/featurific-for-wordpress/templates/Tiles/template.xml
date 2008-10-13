@@ -1,0 +1,107 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Tiled goodness.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]post_title
+			[li]post_excerpt
+			[li]title_color
+			[li]excerpt_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="200" height="150"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="previous"/>
+		<button type="next"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Tiles/1.jpg" x="0" y="0"/>
+		<image filename="templates/Tiles/black30.png" x="0" y="0" width="200" height="20" animationspeed="6" animatefromx="0" animatefromy="-200" resizetype="exact"/>
+		<image filename="templates/Tiles/white80.png" x="10" y="30" width="180" height="80" animationspeed="6" animatefromx="10" animatefromy="-80" resizetype="exact"/>
+		
+		<!-- Main text -->
+		<text x="0" y="0" animationspeed="6" animatefromx="0" animatefromy="-200">
+			<line fontsize="12" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="30" width="180" animationspeed="6" animatefromx="10" animatefromy="-80">
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#333333"/>
+		<default name="read_more_color" value="#666666"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Tiles/2.jpg" x="0" y="0"/>
+		<image filename="templates/Tiles/black30.png" x="0" y="0" width="200" height="20" animationspeed="6" animatefromx="0" animatefromy="-200" resizetype="exact"/>
+		<image filename="templates/Tiles/white80.png" x="10" y="30" width="180" height="80" animationspeed="6" animatefromx="10" animatefromy="-80" resizetype="exact"/>
+		
+		<!-- Main text -->
+		<text x="0" y="0" animationspeed="6" animatefromx="0" animatefromy="-200">
+			<line fontsize="12" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="30" width="180" animationspeed="6" animatefromx="10" animatefromy="-80">
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#333333"/>
+		<default name="read_more_color" value="#666666"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Tiles/3.jpg" x="0" y="0"/>
+		<image filename="templates/Tiles/black30.png" x="0" y="0" width="200" height="20" animationspeed="6" animatefromx="0" animatefromy="-200" resizetype="exact"/>
+		<image filename="templates/Tiles/white80.png" x="10" y="30" width="180" height="80" animationspeed="6" animatefromx="10" animatefromy="-80" resizetype="exact"/>
+		
+		<!-- Main text -->
+		<text x="0" y="0" animationspeed="6" animatefromx="0" animatefromy="-200">
+			<line fontsize="12" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="30" width="180" animationspeed="6" animatefromx="10" animatefromy="-80">
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#333333"/>
+		<default name="read_more_color" value="#666666"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Tiles/4.jpg" x="0" y="0"/>
+		<image filename="templates/Tiles/black30.png" x="0" y="0" width="200" height="20" animationspeed="6" animatefromx="0" animatefromy="-200" resizetype="exact"/>
+		<image filename="templates/Tiles/white80.png" x="10" y="30" width="180" height="80" animationspeed="6" animatefromx="10" animatefromy="-80" resizetype="exact"/>
+		
+		<!-- Main text -->
+		<text x="0" y="0" animationspeed="6" animatefromx="0" animatefromy="-200">
+			<line fontsize="12" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+		</text>
+		<text x="10" y="30" width="180" animationspeed="6" animatefromx="10" animatefromy="-80">
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#333333"/>
+		<default name="read_more_color" value="#666666"/>
+	</screen>
+
+</data>

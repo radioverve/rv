@@ -2,6 +2,36 @@
 
 /* Note: these tags go anywhere in the template */
 
+/* Custom function's START*/
+function get_artist_ss($version='') {
+	do_action( 'get_artist_ss' );
+	if ( file_exists( TEMPLATEPATH . '/artist_show.php') )
+		load_template( TEMPLATEPATH . '/artist_show.php');
+	else
+		/*No running away*/
+		load_template( ABSPATH . 'wp-content/themes/default/header.php');
+}
+
+function get_player($version='') {
+	do_action( 'get_player' );
+	if ( file_exists( TEMPLATEPATH . '/player.php') )
+		load_template( TEMPLATEPATH . '/player.php');
+	else
+		/*No running away*/
+		load_template( ABSPATH . 'wp-content/themes/default/header.php');
+}
+
+function get_featured($version='') {
+	do_action( 'get_featured' );
+	if ( file_exists( TEMPLATEPATH . '/featured.php') )
+		load_template( TEMPLATEPATH . '/featured.php');
+	else
+		/*No running away*/
+		load_template( ABSPATH . 'wp-content/themes/default/header.php');
+}
+
+/* Custom function's END*/
+
 function get_header() {
 	do_action( 'get_header' );
 	if ( file_exists( TEMPLATEPATH . '/header.php') )
@@ -32,10 +62,10 @@ function get_sidebar( $name = null ) {
 
 
 function wp_loginout() {
-	if ( ! is_user_logged_in() )
-		$link = '<a href="' . site_url('wp-login.php', 'login') . '">' . __('Log in') . '</a>';
-	else
-		$link = '<a href="' . site_url('wp-login.php?action=logout', 'login') . '">' . __('Log out') . '</a>';
+        if ( ! is_user_logged_in() )
+                $link = '<a href="' . site_url('wp-login.php', 'login') . '">' . __('Log in') . '</a>';
+        else
+                $link = '<a href="' . site_url('wp-login.php?action=logout', 'login') . '">' . __('Log out') . '</a>';
 
 	echo apply_filters('loginout', $link);
 }

@@ -1,0 +1,34 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		A no-frills gallery, similar to that of Time.com.  It uses the first picture found in each post (or default.jpg if no image is found) as the main image for each screen.  To change the default image, simply replace default.jpg with the desired image.  To resize the width of the gallery, open Time.com/template.xml and replace each instance of 'width="350"' with 'width="xxx"'.  Resizing the height is done likewise, but requires a bit of addition/subtraction.  [a href='http://featurific.com']Designed by Rich Christiansen[/a].  Time is a registered trademark of Time Inc.
+	</notes>
+
+	<size width="350" height="350"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'max' resize type so that the image is guaranteed to fit in the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="350" height="350" resizetype="max"/>
+		<default name="image_1" value="templates/Time.com (Transparent)/default.jpg"/>
+		
+		<!-- Lighter grey portion, behind text.  Note that this lighter grey portion is listed *after* the main image.  This will cause the main image to be cropped by the lighter grey portion.  This is necessary since we're using the 'min' resize type on the main image. -->
+		<image filename="templates/Time.com (Transparent)/greyF5.png" x="0" y="233" width="350" height="87" resizetype="exact" animatefromx="0" animatefromy="1500" animationspeed="5"/>
+		
+		<!-- Darker grey portion, behind control panel -->
+		<image filename="templates/Time.com (Transparent)/greyEB.png" x="0" y="320" width="350" height="30" resizetype="exact" animatefromx="0" animatefromy="1500" animationspeed="5"/>
+
+		<text x="5" y="233" width="340" animatefromx="5" animatefromy="1500" animationspeed="5">
+			<line fontsize="18" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="12" fontcolor="black" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontstyle="bold" fontcolor="black" text="Posted in: %categories%"/>
+		</text>
+	</screen>
+
+</data>

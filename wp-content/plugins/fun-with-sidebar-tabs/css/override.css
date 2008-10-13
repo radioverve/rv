@@ -1,0 +1,20 @@
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar, #sidebar ul li div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar {
+	%tabs_position%
+	}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3 {
+	%tabs%
+	}
+	
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3.selected, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3.selected {
+	%tabs_selected%
+
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3:hover, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3:hover {
+	%tabs_hover%
+}
+
+div#fw_tabs_tabdisplay_%num% {
+	%content_container%
+}

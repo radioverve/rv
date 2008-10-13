@@ -1,0 +1,115 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Barebones template providing an emphasis on content rather than flashy presentation.  Perfect as a starting point for a new template.  Also, since graphics usage is minimal, this barebones template can be easily resized to custom dimensions (just edit the &amp;lt;size&amp;gt; element of "Barebones Black/template.xml").[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+			[ul]
+				[li]url
+				[li]screen_duration
+				[li]screen_number
+				[li]post_title
+				[li]post_excerpt
+				[li]categories
+				[li]nickname
+				[li]post_long_human_date
+				[li]post_human_time
+				[li]comment_count
+			[/ul]
+			[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="200"/>
+	
+	<controlpanel>
+		<button type="previous"/>
+		<button type="next"/>
+		<button type="play"/>
+		<button type="pause"/>
+	</controlpanel>
+
+	<!-- <text x="-3000" y="0" animationspeed="1" animatefrom="right">
+		<line fontsize="130" fontstyle="bold" fontcolor="#555555" text="%post_title%"/>
+	</text> -->
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Barebones Black/pixel.gif" x="0" y="0" width="105" height="200" resizetype="exact" animationspeed="8" animatefromx="-105" animatefromy="0"/>
+
+		<text x="25" y="10" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#333333" text="%screen_number%"/></text>
+		<text x="5" y="55" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#444444" text="Story"/></text>
+
+		<text x="115" y="10" width="260" animationspeed="8" animatefrom="right">
+			<line fontsize="20" fontstyle="bold" fontcolor="#555555" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="#555555" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontcolor="#555555" text="Posted in %categories% by %nickname%"/>
+			<line fontsize="10" fontcolor="#555555" text="%post_long_human_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="#555555" text="%comment_count% comments"/>
+		</text>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Barebones Black/pixel.gif" x="0" y="0" width="400" height="200" resizetype="exact" animationspeed="8" animatefromx="0" animatefromy="-200"/>
+
+		<text x="300" y="40" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#333333" text="%screen_number%"/></text>
+		<text x="280" y="85" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#444444" text="Story"/></text>
+
+		<text x="25" y="10" width="350" animationspeed="8" animatefrom="top">
+			<line fontsize="20" fontstyle="bold" fontcolor="#dddddd" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="#dddddd" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontcolor="#dddddd" text="Posted in %categories% by %nickname%"/>
+			<line fontsize="10" fontcolor="#dddddd" text="%post_long_human_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="#dddddd" text="%comment_count% comments"/>
+		</text>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Barebones Black/pixel.gif" x="105" y="0" width="400" height="200" resizetype="exact" animationspeed="8" animatefrom="right"/>
+
+		<text x="25" y="10" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#eeeeee" text="%screen_number%"/></text>
+		<text x="5" y="55" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#dddddd" text="Story"/></text>
+
+		<text x="115" y="10" width="260" animationspeed="8" animatefrom="right">
+			<line fontsize="20" fontstyle="bold" fontcolor="#dddddd" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="#dddddd" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontcolor="#dddddd" text="Posted in %categories% by %nickname%"/>
+			<line fontsize="10" fontcolor="#dddddd" text="%post_long_human_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="#dddddd" text="%comment_count% comments"/>
+		</text>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Barebones Black/pixel.gif" x="0" y="-200" width="400" height="200" resizetype="exact" animationspeed="8" animatefromx="0" animatefromy="0"/>
+
+		<text x="300" y="40" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#eeeeee" text="%screen_number%"/></text>
+		<text x="280" y="85" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#dddddd" text="Story"/></text>
+
+		<text x="25" y="10" width="350" animationspeed="8" animatefrom="top">
+			<line fontsize="20" fontstyle="bold" fontcolor="#555555" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="#555555" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontcolor="#555555" text="Posted in %categories% by %nickname%"/>
+			<line fontsize="10" fontcolor="#555555" text="%post_long_human_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="#555555" text="%comment_count% comments"/>
+		</text>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Barebones Black/pixel.gif" x="0" y="0" width="105" height="200" resizetype="exact" animationspeed="8" animatefromx="0" animatefromy="200"/>
+
+		<text x="25" y="10" animationspeed="8"><line fontsize="130" fontstyle="bold" fontcolor="#333333" text="%screen_number%"/></text>
+		<text x="5" y="55" animationspeed="8"><line fontsize="16" fontstyle="bold" fontcolor="#444444" text="Story"/></text>
+
+		<text x="115" y="10" width="260" animationspeed="8" animatefrom="right">
+			<line fontsize="20" fontstyle="bold" fontcolor="#555555" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="#555555" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="10" fontcolor="#555555" text="Posted in %categories% by %nickname%"/>
+			<line fontsize="10" fontcolor="#555555" text="%post_long_human_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="#555555" text="%comment_count% comments"/>
+		</text>
+	</screen>
+
+
+</data>

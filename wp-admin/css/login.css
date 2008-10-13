@@ -19,7 +19,7 @@ form {
 form .forgetmenot { font-weight: normal; float: left; margin-bottom: 0;}
 
 #login form .submit input {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	padding: 3px 5px;
 	border: none;
 	font-size: 13px;
@@ -38,10 +38,14 @@ form .submit { float: right; }
 
 form p { margin-bottom: 24px; }
 
+form p label{
+	color: #ee2c52;
+}
+
 h1 a {
-	background: url(../images/logo-login.gif) no-repeat;
-	width: 292px;
-	height: 66px;
+	background: url(../images/wp-login-logo.gif) no-repeat;
+	width: 300px;
+	height: 80px;
 	text-indent: -9999px;
 	overflow: hidden;
 	padding-bottom: 15px;

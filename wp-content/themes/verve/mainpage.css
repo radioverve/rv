@@ -1,0 +1,239 @@
+#summary{
+    padding-top:20px;
+}
+
+#coloumn {
+    float:left;
+    padding-right:30px;
+    background-color:#f2f1f1;
+    width:210px;
+}
+
+#coloumn h2{
+    font-size: 22px;
+    color: #222;
+    line-height: 32px;
+    text-decoration: none;
+    margin-left:10px;
+    padding-bottom:5px;
+    border-bottom:1px solid #505050;
+}
+
+#coloumn p{
+    font-size:12px;
+    color:#222;
+}
+
+#coloumn h3{
+    font-size:12px;
+    color: #222;
+    text-decoration:none;
+}
+
+#coloumn a{
+    text-decoration:none;
+}
+
+#category_list{
+    border-top:1px solid #505050;
+    border-left:1px solid #505050;
+}
+
+.hpcategory{
+    font-size: 18px;
+    color: #222;
+    line-height: 32px;
+    text-decoration: none;
+    padding-bottom:5px;
+}
+
+#category_list a{
+    text-decoration:none;
+    color:#505050;
+    padding-left:5px;
+}
+
+.floater {
+    background-color: #262626;
+    opacity: 0.8;
+    visibility: visible;
+    float: right;
+    text-align: center;
+    width: 140px;
+    margin: 0px;
+    margin-top: -331px;
+    margin-right: 150px;
+    height: 325px;
+    filter:alpha(opacity=80);
+}
+.floater p {
+  padding-top: 10px;
+  color: #ffcc00;
+  font-family: sans-serif; 
+  font-size: 90%;
+}
+
+wrap{
+    margin-top:10px;
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+    margin-top:5px;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 100%;
+}
+
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  100%;
+    height: 325px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 100%;
+    height: 325px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(/images/next-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 175px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(/images/prev-horizontal.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    padding-top:10px;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    margin:auto;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 800px;
+    height: 325px;
+    padding-left:75px;
+}
+
+.jcarousel-item img{
+    border:2px solid #f2f1f1;
+}
+
+
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+#hpcapsule{
+    min-height:180px;
+    border-bottom:1px solid #505050;
+    padding-top:10px;
+}
+
+#hpcapsule img{
+        padding:2px 2px 2px 2px;
+        border:1px solid #D4D4D4;
+        margin-right:10px;
+        position:relative;
+        width:200px;
+        height:108px;
+}
+
+#hpcapcontent {
+        text-align:left;
+        color: #505050;
+}

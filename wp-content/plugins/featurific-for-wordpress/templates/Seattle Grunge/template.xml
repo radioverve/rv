@@ -1,0 +1,110 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Seattle Grunge goodness.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]post_title
+			[li]post_excerpt
+			[li]title_color
+			[li]excerpt_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="200"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Seattle Grunge/1.jpg" x="0" y="0" animationspeed="1" animatefromx="-100" animatefromy="0"/>
+		<image filename="templates/Seattle Grunge/black60.png" x="30" y="0" width="150" height="150" animationspeed="6" animatefromx="30" animatefromy="-100"/>
+		
+		<!-- Main text -->
+		<text x="30" y="0" width="150" animationspeed="6" animatefromx="30" animatefromy="-100">
+			<line fontsize="14" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#eeeeee"/>
+		<default name="read_more_color" value="#cccccc"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Seattle Grunge/3.jpg" x="0" y="-100" animationspeed="1" animatefromx="0" animatefromy="0"/>
+		<image filename="templates/Seattle Grunge/black60.png" x="220" y="50" width="150" height="150" animationspeed="6" animatefromx="220" animatefromy="300"/>
+		
+		<!-- Main text -->
+		<text x="220" y="50" width="150" animationspeed="6" animatefromx="220" animatefromy="300">
+			<line fontsize="14" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#eeeeee"/>
+		<default name="read_more_color" value="#cccccc"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Seattle Grunge/4.jpg" x="0" y="0" animationspeed="1" animatefromx="0" animatefromy="-100"/>
+		<image filename="templates/Seattle Grunge/black60.png" x="0" y="25" width="150" height="150" animationspeed="6" animatefromx="-100" animatefromy="25"/>
+		
+		<!-- Main text -->
+		<text x="0" y="25" width="150" animationspeed="6" animatefromx="-100" animatefromy="25">
+			<line fontsize="14" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#eeeeee"/>
+		<default name="read_more_color" value="#cccccc"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Seattle Grunge/2.jpg" x="0" y="0" animationspeed="1" animatefromx="-100" animatefromy="0"/>
+		<image filename="templates/Seattle Grunge/black60.png" x="30" y="0" width="150" height="150" animationspeed="6" animatefromx="30" animatefromy="-100"/>
+		
+		<!-- Main text -->
+		<text x="30" y="0" width="150" animationspeed="6" animatefromx="30" animatefromy="-100">
+			<line fontsize="14" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#eeeeee"/>
+		<default name="read_more_color" value="#cccccc"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Seattle Grunge/5.jpg" x="-100" y="0" animationspeed="1" animatefromx="0" animatefromy="0"/>
+		<image filename="templates/Seattle Grunge/black60.png" x="220" y="0" width="150" height="150" animationspeed="6" animatefromx="220" animatefromy="-100"/>
+		
+		<!-- Main text -->
+		<text x="220" y="0" width="150" animationspeed="6" animatefromx="220" animatefromy="-100">
+			<line fontsize="14" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="10" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+		
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="#eeeeee"/>
+		<default name="read_more_color" value="#cccccc"/>
+	</screen>
+</data>

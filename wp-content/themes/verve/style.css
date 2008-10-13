@@ -1,0 +1,782 @@
+/*
+Theme Name: RadioVeRve
+Theme URI: http://radioverve.com/
+Description: RadioVeRVe theme 2.0
+Version: 1.6
+Author: Jonathan, Shreyas & Praveen
+Author URI: http://radioverve.com/
+
+
+*/
+
+/* Global reset */
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100% }
+q:before, q:after { content:''}
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight:bold }
+em { font-style:italic }
+* a { position:relative } /* Gets links displaying over a PNG background */
+a img { border:none } /* Gets rid of IE's blue borders */
+
+
+/* Let's get started */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: Helvetica, Arial, FreeSans, Jamrul, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+* html body{
+	text-align: center;
+}
+
+#container{
+	/*background: url(images/headerBackground.gif) top repeat-x; */
+}
+
+
+#wrapper{
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo{
+	float: left;
+	width: 282px;
+}
+
+/***** Navigation Styles *****/
+#nav{
+	float: left;
+	width: 520px;
+	padding-left: 95px;
+	font-size: 14px;
+}
+
+#nav ul{
+	margin-top: 5px;
+	list-style: none;
+	float: left;
+}
+
+#nav li{      
+	float:left;
+  	background:url("images/leftNavAll.png") no-repeat left top;
+    margin:0 10px 0 0;
+    padding:0 0 0 8px;
+}
+
+#nav a {
+	float:left;
+	display:block;
+	width:.1em;
+	background:url("images/rightNavAll.png") no-repeat right top;
+	padding:2px 14px 2px 6px;
+	text-decoration:none;
+	color:#fff;
+}
+
+#nav > ul a {width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#nav a {float:none;}
+/* End IE5-Mac hack */
+
+#home #navHome, #artists #navArtists,
+#articles #navArticles, #events #navEvents,
+#podcasts #navPodcasts {
+	background-position:0 -24px;
+	border-width:0;
+}
+#home #navHome a, #artists #navArtists a,
+#articles #navArticles a, #events #navEvents a,
+#podcasts #navPodcasts a {
+	background-position:100% -24px;
+	color:#fff;
+}
+
+#nav li:hover, #nav li:hover a {
+	background-position:0% -48px;
+	color: #000;
+}
+#nav li:hover a {
+	background-position:100% -48px;
+}
+/*****  End Navigation Styles *****/
+
+/***** Player/ Thingy Styles *****/
+#player, #content{
+	clear: both;
+}
+
+#player{
+	height: 200px;
+    width:600px;
+	margin: 0 auto 10px;
+	background: url(images/playerDropShadow.png) bottom center no-repeat;
+}
+
+#featureThingy{
+	height: 32px;
+	width: 798px;
+	margin: 0 auto;
+	background: url(images/featureThingyBackground.png);
+        
+}
+
+#featureThingy ul li a{
+	padding: 10px;
+	color: #505050;
+	font-size: 14px;
+}
+/*****  End Player/ Thingy Styles *****/
+#homepagecarousel{
+	height: 200px;
+	width: 798px;
+	margin: 0 auto;
+	background: url(images/featureThingyBackground.png);
+        
+}
+/****** Home Page *****/
+
+
+
+/***** Per Page Constants *****/
+#pagecontent{
+        margin-left: 20px;
+        margin-top: 15px;
+}
+
+#pagecontent h3{font-size: 24px;
+	color: #505050;
+        margin-bottom:10px;
+}
+
+p#pastupcoming {
+margin:0.5em 0pt 0pt;
+}
+
+p#pastupcoming label, p#within label {
+display:inline !important;
+}
+
+/***** End Per Page Constants ****/
+
+/***** Events Page *****/
+
+#form eventSearchForm{
+        
+}
+
+form#eventSearchForm label {
+display:block;
+font-weight:bold;
+}
+
+form#eventSearchForm div {
+float:left;
+margin-right:1em;
+}
+
+form#eventSearchForm label small {
+font-size:12px;
+font-weight:normal;
+}
+
+/***** End Events Page *****/
+
+/*****  Content/Articles/Sidebar *****/
+#content{
+	width: 947px;
+    clear:both;
+    margin-top:10px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+#contentTop{
+	width: 947px;
+	height: 5px;
+	background: url(images/articlesTopBackground.png) no-repeat bottom;
+}
+
+#contentMiddle{
+	width: 947px;
+	height: auto;
+	float: left;
+	display: block;
+	background: url(images/articlesMiddleBackground.png) repeat-y;
+}
+
+#contentBottom{
+	width: 947px;
+	height: 6px;
+	background: url(images/articlesBottomBackground.png) no-repeat;
+	clear: both;
+	display: block;
+}
+
+
+#plainContentTop{
+	width: 945px;
+	height: 7px;
+	background: url(images/plainWhiteBackgroundTop.png) no-repeat bottom;
+}
+
+#plainContentMiddle{
+	width: 945px;
+	height: auto;
+	float: left;
+	display: block;
+	background: url(images/plainWhiteBackgroundMiddle.png) repeat-y;
+}
+
+#plainContentBottom{
+	width: 945px;
+	height: 5px;
+	background: url(images/plainWhiteBackgroundBottom.png) no-repeat;
+	clear: both;
+	display: block;
+}
+
+
+#articleContainer{
+	width: 650px;
+	display: inline;
+	float: left;
+}
+
+.post{
+	margin: 10px 10px 20px 15px;
+	width: 610px;
+}
+
+.post a{ color: #505050;}
+
+.post h2 a{
+	font-size: 28px;
+	color: #222;
+	line-height: 32px;
+	text-decoration: none;
+}
+
+.post h2 span{
+	font-size: 14px;
+	color: #505050;
+	font-weight: normal;
+}
+
+.artistTitle{
+    font-size: 28px;
+	color: #222;
+	line-height: 32px;
+	text-decoration: none;
+}
+
+.navigation{
+        margin: 10px 10px 20px 10px;
+        padding-top:10px;
+}
+
+.entry{
+        padding-top:10px;
+        line-height:20px;
+}
+
+.entry p{
+        padding-bottom:10px;
+}
+
+#sidebar{
+	width: 270px;
+	display: inline;
+	float: right;
+        border: 0px solid red;
+}
+
+.sidebarBox{
+	width: 258px;
+	margin: 5px 0 10px;
+}
+
+.sidebarBoxTop{
+	width: 258px;
+	height: 7px;
+	background: #f2f1f1 url(images/sideboxTopBackground.png) no-repeat bottom;
+}
+
+.sidebarBoxMiddle{
+	width: 258px;
+	height: auto;
+	background: #f2f1f1 url(images/sideboxMiddleBackground.png) repeat-y;
+       padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+.sidebarBoxMiddle h3{
+	font-size: 24px;
+	color: #505050;
+	margin-left: 5px;
+    margin-bottom:10px;
+}
+
+.sidebarBoxBottom{
+	width: 258px;
+	height: 8px;
+	background:#f2f1f1 url(images/sideboxBottomBackground.png) no-repeat;
+}
+
+#tabboxcontent{
+        margin-right:7px;
+        background-color:#fff;
+}
+
+#tabboxcontent a{
+        text-decoration:none;
+        color:#000000;
+        margin-left:5px;
+        margin-right:5px;
+}
+
+#tabboxcontent li{
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom:5px;
+}
+
+/***** Artists Page Styles ******/
+
+#artistnavigator {
+        color:#FFFFFF;
+        background-color:#eff2f6;
+        margin: 10px auto;
+        width: 635px;
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+}
+
+
+#artistnavigator li{
+        font-size:14px;
+        display:inline;
+}
+
+#artistnavigator a{
+        text-decoration:underline;
+        color:#505050;
+        padding:4px 6px;
+        margin-right: 3px;
+}
+
+#artistnavigator a:hover{
+        color:#FFFFFF;
+        background-color:#222222;
+}
+
+.artistlist{
+        display:block;
+        margin-left: 10px;
+        list-style-image:none;
+        list-style-position:outside;
+        list-style-type:none;
+}
+
+#artistcapsule {
+        clear:both;
+}
+
+#artistcapsule li{
+        float:left;
+        text-align:left;
+        display:inline;
+}
+
+.bandmembers{
+        padding-right:240px;
+}
+
+#artistcapsule img{
+        padding:2px 2px 2px 2px;
+        border:1px solid #D4D4D4;
+        margin-right:10px;
+        float:left;
+        position:relative;
+}
+
+#artistcapcontent {
+        text-align:left;
+        color: #505050;
+}
+
+.listenbutton{
+        background-color:#222222;
+        color:#FFFFFF;
+        padding:2px;
+}
+
+.listenbutton a{
+        text-decoration:none;
+        color:#FFFFFF;
+}
+
+/******************************/
+
+/******** Individual artist page *******/
+
+#player {
+        
+}
+
+#imageplayer p{
+        padding-top:10px;           
+}
+#artistplayer {
+        float:right;
+        padding-top:5px;
+        width:400px;
+        height:280px;
+        padding-right:10px;
+}
+
+#bandmembers{
+        margin-top:10px;
+        background-color:#313131;
+        color:#FFFFFF;
+}
+
+#bandmembers ul{
+        margin-left:5px;
+        font-size:smaller;
+        border-bottom:1px dashed #FFFFFF;
+}
+
+#bandmembers h3{
+        margin-left:5px;
+}
+
+.band_image {
+        padding-left:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+}
+
+/***************************/
+
+/***** Shoutbox styles ******/
+#wordspew{
+        font-size:12px;
+}
+
+
+#timestamp{
+        color:#929292;
+        font-size:12px;
+        font-style:italic;
+        margin-bottom:5px;
+}
+
+.name{
+        color:#EE2c52;
+        padding-left:2px;
+}
+
+#chatForm {
+        display:none;
+}
+
+#chatForm input, #chatForm textarea {
+}
+
+#chatForm input:hover,#chatForm textarea:hover{
+}
+
+#chatForm label{
+	display:none;
+}
+
+#outputList li{
+	width: 250px;
+}
+
+#showLink{
+	display:block;
+        clear:both;
+width: 115px;
+	border:1px solid #42494f;
+        background-color: #272727;
+	color:#ffffff;
+        margin-left:5px;
+        padding: 5px;
+        text-decoration: none;
+        margin-bottom:5px;
+        
+}
+
+#shouttest{
+	padding-bottom:10px;
+}
+
+#showLink:hover{
+	background-position:0 top;
+}
+
+/***** Footer Styles *****/
+#footer{
+	background: #000;
+	color: #ccc;
+	padding: 50px 0px;
+	clear: both;
+}
+
+#footerContents{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #505050;
+	text-align: left;
+}
+
+#footerContents h4{
+	color: #ee2c52;
+	font-size: 24px;
+}
+
+#footerContents a, #footerContents p{
+	font-size: 12px;
+	color: #ccc;
+	position: static;
+} 
+
+.footerBigColumn{
+	width: 430px;
+	margin: 20px 10px;
+	float: left;
+}
+
+.footerSmallColumn{
+	width: 200px;
+	margin:  20px 10px;
+	float: left;
+}
+
+p.copyright{
+	font-size:12px;
+	color: #ccc;
+	margin: 20px auto 0;
+	width: 960px;
+}
+
+/***** Clearfix Styles *****/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+#sidebar ul ul li:before {content:"";}
+
+/* Comment Style */
+
+#comments{
+	margin: 10px 10px 20px 15px;
+}
+
+.commentlist li{
+	margin-bottom: 10px;
+}
+
+#commentform p{
+	margin-bottom: 10px;
+}
+
+/****** Login Stuff: REMOVE IF WE DONT USE THIS ******/
+
+#login{
+        margin: 0 auto;
+        padding: 12px;
+		font-family:Arial, Helvetica, sans-serif;
+}
+
+#login a{
+        padding-left:5px;
+        text-decoration:none;
+        color:#505050;
+        font-size:small;
+        padding-top:10px;
+}
+
+#login a:hover{
+        background-color:#505050;
+        color:#FFFFFF;
+}
+
+#backtoblog {
+        background-color:#686852;
+        text-align:right;
+        width:100%;
+        color:#FFFFFF;
+}
+
+#backtoblog a{
+        color:#FFFFFF;
+        padding-right:10px;
+        font-size:small;
+}
+
+.submit{
+        float:right;
+        padding-right:10px;
+}
+
+/******* Artist Upload Stuff *******/
+
+.scrollable{
+        background:#F3F3F3 none repeat scroll 0 0;
+        border-color:#999999 -moz-use-text-color #999999 #999999;
+        border-style:solid none solid solid;
+        border-width:1px medium 1px 1px;
+        height:10em;
+        margin:1em 1em 2em 0;
+        overflow:auto;
+        padding:1.5em;        
+}
+
+.scrollable ol li{
+        list-style-type:decimal;
+}
+
+#ContactDetails{
+        width:400px;
+        text-align:right;
+        margin-top:10px;
+        padding-top:5px;
+}
+
+#ContactDetails li{
+        padding-top:10px;
+}
+
+#ContactDetails label{
+        padding-right:5px;
+        vertical-align:top;
+        width:100px;
+}
+
+#ContactDetails input {
+        width:200px;
+}
+
+#ContactDetails textarea{
+        width:200px;
+}
+
+#artistreg{
+        width:500px;
+}
+
+#artistreg h3{
+        font-size:12px;
+        border-bottom:1px solid #F2F1F1;
+        margin-bottom:10px;
+        margin-top:20px;
+}
+
+#agreeTerms{
+        margin-bottom:10px;
+}
+
+.error{
+        background-color:#FFEBE8;
+        border-color:#CC0000;
+        margin-right:20px;
+        margin-bottom:15px;
+}
+
+#userartists{
+        padding:10px 10px 10px 10px;
+        border-bottom:1px #F2F1F1 solid;
+        width:35%;
+        margin-bottom:15px;
+}
+
+#userartists ul li{
+        list-style-type:decimal;
+}
+
+#userartistactions{
+        background-color:#F2F1F1;
+}
+
+#userartistactions a{
+        text-decoration:none;
+        padding-left:10px;
+}

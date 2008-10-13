@@ -1,0 +1,81 @@
+/* Fun with Sidebar Tabs CSS File */
+
+/* remove browser dafaults */
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar, div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab, div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3, div#fw_tabs_tabdisplay_%num% {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: normal;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	list-style: none !important;
+}
+
+/* content removal must be split out or else it will remove all the content in opera (and possibly sefari) This is to remove the special bullets used by the Kubrick theme */
+#sidebar ul ul li:before {content:"";}
+
+/* The second part #sidebar ul .... is targetted at Kubrick */
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar, #sidebar ul li div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar {
+float:left;
+margin:1px solid #ccc;
+margin-top:-32px;
+height:1px;
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab {
+float:left;
+margin:0;
+padding:0;
+margin-top:0px;
+margin-left:-1px;
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3 {
+font-size:10px;
+line-height:1;
+font-family:Arial, Helvetica, sans-serif;
+color:#000;
+display:block;
+padding:5px;
+border:1px solid %border-color%;
+cursor:pointer;
+background-color:#eee;
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3.selected, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3.selected {
+border-bottom:1px solid #fff;
+background-color:#fff;
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3:hover, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab h3:hover {
+background-color:#dfe4ec;
+}
+
+div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab div.tab-content, #sidebar ul div#fw_tabs_tabdisplay_%num% ul.tabbed_sidebar li.tab div.tab-content {
+display:none;
+}
+
+div#fw_tabs_tabs_surround_%num%, #sidebar ul div.fw_tabs_tabs_surround {
+margin:10px 0 10px 0;
+}
+
+div#fw_tabs_tabdisplay_%num% {
+border:1px solid #ccc;
+padding:10px 0;
+
+/* to add more space above each sidebar increase this (the minimum it can be is 32px) */
+margin-top:32px;
+}
+
+div#fw_tabs_tabdisplay_%num%.first {
+/* This will overide the above setting for Tabbed Sidebar 1 only.  */
+margin-top:50px;
+}
+
+/* style the contents of the widget */
+
+div#fw_tabs_tabdisplay_%num% div.tab-content ul { }
+
+div#fw_tabs_tabdisplay_%num% div.tab-content ul li {  }

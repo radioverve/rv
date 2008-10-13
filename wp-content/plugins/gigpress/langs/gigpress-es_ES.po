@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GigPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-01 17:05-0400\n"
+"PO-Revision-Date: 2008-04-01 22:13+0100\n"
+"Last-Translator: Jorge Otero <ipodnoticias@gmail.com>\n"
+"Language-Team: Jorge Otero <tech@dustyroses.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:45
+msgid "opens in a new window"
+msgstr ""
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:278
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:431
+msgid "Add a show"
+msgstr "Añadir un concierto"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:279
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:927
+msgid "Upcoming shows"
+msgstr "Próximos conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:280
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1245
+msgid "Tours"
+msgstr "Giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:281
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1033
+msgid "Past shows"
+msgstr "Conciertos pasados"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:282
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1489
+msgid "Options"
+msgstr "Opciones"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "<strong>Welcome to GigPress!</strong> You should first"
+msgstr "sin confirmar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "customize some of the options"
+msgstr "elegir algunas de las opciones"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "then get right into adding shows below. Questions?  Please check out the"
+msgstr "y después empezar a añadir conciertos más abajo. ¿Tienes dudas? Consulta la"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "documentation"
+msgstr "documentación"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1678
+msgid "and"
+msgstr "y"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "FAQ"
+msgstr "FAQ"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "on the GigPress website. Enjoy!"
+msgstr "en la web de GigPress. ¡A disfrutar!"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:323
+msgid "Don't show this again"
+msgstr "No mostrar nuevamente"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:385
+msgid "Sorry, but we had trouble loading that show for editing."
+msgstr "Lo siento, hay algún problema cargando los datos del concierto para editarlos."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:392
+msgid "Edit this show"
+msgstr "Editar este concierto"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:440
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:932
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1038
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2121
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2205
+msgid "Date"
+msgstr "Fecha"
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:442
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:561
+msgid "January"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:443
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:562
+msgid "February"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:444
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:563
+msgid "March"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:445
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:564
+msgid "April"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:446
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:565
+msgid "May"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:447
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:566
+msgid "June"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:448
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:567
+msgid "July"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:449
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:568
+msgid "August"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:450
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:569
+msgid "September"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:451
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:570
+msgid "October"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:452
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:571
+msgid "November"
+msgstr ""
+
+# Doesn't need to be translated, as months are included in the core WordPress language files.
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:453
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:572
+msgid "December"
+msgstr ""
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:503
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2529
+msgid "at"
+msgstr "-"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:505
+msgid "N/A"
+msgstr "sin confirmar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:554
+msgid "This is a multi-day event"
+msgstr "El evento dura varios días"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:559
+msgid "End date"
+msgstr "Fecha de finalización"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:625
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:933
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1039
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2122
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2206
+msgid "City"
+msgstr "Ciudad"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:627
+msgid "I&rsquo;d suggest a format along the lines of: <strong>Winnipeg, MB</strong>."
+msgstr "Te sugerimos un formato del tipo: <strong>Winnipeg, MB</strong>."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:630
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:934
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1040
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2123
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2207
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2758
+msgid "Venue"
+msgstr "Sala"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:632
+msgid "This is a required field, so if you don&rsquo;t know, just put <strong>TBA</strong>."
+msgstr "El campo es obligatorio, así que si no lo sabes, pon <strong>sin confirmar</strong>"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:635
+msgid "Venue website"
+msgstr "Web de la sala"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:637
+msgid "Any value entered here will be added as a hyperlink attached to the name of the venue."
+msgstr "Cualquier cosa que introduzcas aquí se añadirá como enlace en el nombre de la sala."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:640
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2477
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2758
+msgid "Address"
+msgstr "Dirección"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:642
+msgid "If you enter a street address, it will enable auto-linkage to Google Maps.  True that, double true."
+msgstr "Si introduces una dirección completa, habilitará un enlace automático con Google Maps. De verdad."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:645
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2125
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2209
+msgid "Country"
+msgstr "País"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:814
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:935
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1041
+msgid "Admittance"
+msgstr "Admisión:"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:816
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1154
+msgid "Not sure"
+msgstr "No sabemos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:817
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1157
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2449
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2739
+msgid "No minors"
+msgstr "Mayores de 18 años"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:818
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1156
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2448
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2738
+msgid "All Ages/Licensed"
+msgstr "Mayores de 16 años"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:819
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1155
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2447
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2737
+msgid "All Ages"
+msgstr "Todos los públicos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:824
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:936
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1042
+msgid "Price"
+msgstr "Precio"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:826
+msgid "To accomodate various currency display formats, no auto-formatting will be applied to what you enter here. Keep that in mind!"
+msgstr "Para acomodar las diversas monedas, no hay ningún tipo de formato automático. ¡Tenlo en cuenta!"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:829
+msgid "Ticket URL"
+msgstr "URL de venta de entradas"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:831
+msgid "This will enable the &ldquo;buy link&rdquo; when displaying your tour dates."
+msgstr "Esto habilitará el enlace &ldquo;comprar&rdquo; en el listado de fechas."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:834
+msgid "Notes"
+msgstr "Notas"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:837
+msgid "Use this space to list opening (or headlining) bands, &ldquo;presented by&rdquo; info, or whatever else you like.<br />Keep it brief, and maybe don&rsquo;t try to display images inline in this field."
+msgstr "Usa este espacio para más información, como teloneros, etc.<br />Sé breve, y es mejor que no intentes añadir imágenes en este campo."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:840
+msgid "Part of a tour?"
+msgstr "¿Parte de una gira?"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:843
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1150
+msgid "Nope"
+msgstr "No"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:856
+msgid "No tours in the database"
+msgstr "No hay giras en la base de datos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:861
+msgid "If this show is part of a tour you&rsquo;ve already entered into GigPress, select it here.<br />No tours yet?"
+msgstr "Si este concierto es parte de una gira que ya has introducido en GigPress, selecciónala aquí.<br />¿No hay giras?"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:861
+msgid "Create them here."
+msgstr "Créalas aquí."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:865
+msgid "Related post"
+msgstr "Post relacionado"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:868
+msgid "None"
+msgstr "No"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:880
+msgid "You can link any show to a WordPress post, useful for show recaps, tour journals, uploading pictures, and allowing user comments."
+msgstr "Puedes enlazar cualquier concierto a un post de WordPress. Es útil para comentarios sobre el concierto, diarios de ruta, subir fotos y permitir comentarios de los usuarios."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:886
+msgid "Update show"
+msgstr "Actualizar concierto"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:886
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1280
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1392
+msgid "or"
+msgstr "o"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:886
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1280
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1392
+msgid "cancel"
+msgstr "cancelar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:888
+msgid "Add show"
+msgstr "Añadir concierto"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:937
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1043
+msgid "Buy link"
+msgstr "Enlace para comprar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:938
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1044
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1341
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1413
+msgid "Actions"
+msgstr "Acciones"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:961
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1067
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2472
+msgid "Tour"
+msgstr "Gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:982
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1088
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2349
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2588
+msgid "Individual shows"
+msgstr "Conciertos individuales"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1148
+msgid "Link"
+msgstr "Enlace"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1183
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1184
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1379
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1447
+msgid "Edit"
+msgstr "Editar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1186
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1187
+msgid "Copy"
+msgstr "Copiar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1189
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1190
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1380
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1448
+msgid "Delete"
+msgstr "Borrar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1247
+msgid "A tour is simply a collection of shows that you want to group together."
+msgstr "Una gira no es más que una colección de conciertos que quieres agrupar juntos. Cuando los muestras en tu sitio web, los conciertos aparecen agrupados por giras."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1266
+msgid "Edit this tour"
+msgstr "Editar esta gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1275
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1314
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1339
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1411
+msgid "Tour name"
+msgstr "Nombre de la gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1280
+msgid "Update tour"
+msgstr "Actualizar gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1291
+msgid "Sorry, but we had trouble loading that tour for editing."
+msgstr "Lo siento, ha habido un problema al cargar esa gira para editarla."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1298
+msgid "Add a tour"
+msgstr "Añadir una gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1320
+msgid "Add tour"
+msgstr "Añadir gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1329
+msgid "Reorder tours"
+msgstr "Reordenar giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1338
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1410
+msgid "Display order"
+msgstr "Orden de aparición"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1340
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1412
+msgid "Shows in tour"
+msgstr "Conciertos de la gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1388
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1455
+msgid "No tours in the database!"
+msgstr "No hay giras en la base de datos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1392
+msgid "Save order"
+msgstr "Guardar orden"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1399
+msgid "All tours"
+msgstr "Todas las giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1401
+msgid "Note that deleting a tour will <strong>NOT</strong> delete the shows associated with that tour."
+msgstr "Ten en cuenta que borrar una gira <strong>NO</strong> elimina los conciertos asociados con esa gira."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1410
+msgid "edit"
+msgstr "Editar"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1496
+msgid "General options"
+msgstr "Opciones generales"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1500
+msgid "Name of your band"
+msgstr "Nombre de tu banda"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1504
+msgid "This is used in your RSS feed and hCalendar data."
+msgstr "Esto se usa en el feed RSS y datos hCalendar."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1508
+msgid "Full URL to your &lsquo;Upcoming Shows&rsquo; page"
+msgstr "URL completa a tu página de &lsquo;Próximos conciertos&rsquo;"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1512
+msgid "Show a link to this page below my sidebar listing."
+msgstr "Añadir enlace a esta página debajo de mi listado en la Barra Lateral"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1516
+msgid "User level required to use GigPress"
+msgstr "Nivel de usuario para usar GigPress"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1519
+msgid "Administrator"
+msgstr "Administrador"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1520
+msgid "Editor"
+msgstr "Editor"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1521
+msgid "Author"
+msgstr "Autor"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1522
+msgid "Contributor"
+msgstr "Colaborador"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1532
+msgid "Display &amp; Formatting"
+msgstr "Presentación y formato"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1537
+msgid "Date format"
+msgstr "Formato de fecha"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1543
+msgid "Time format"
+msgstr "Formato de hora"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1546
+msgid "Output"
+msgstr "Muestra"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1548
+msgid "Here&rsquo;s some documentation on date and time formatting"
+msgstr "Documentación acerca del formato de fecha y hora"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1548
+msgid "Click &ldquo;Update options&rdquo; to update the sample output."
+msgstr "Pincha en Actualizar opciones para actualizar la muestra."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1554
+msgid "No upcoming shows message"
+msgstr "Mensaje para cuando no hay próximos conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1560
+msgid "No past shows message"
+msgstr "Mensaje para cuando no hay conciertos pasados"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1566
+msgid "Related post phrase"
+msgstr "Frase del post relacionado"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1573
+msgid "RSS Feed"
+msgstr "Feed RSS"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1575
+msgid "Please include a link to my upcoming shows RSS feed"
+msgstr "Incluir un enlace al feed RSS de próximos conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1576
+msgid "below my upcoming shows table"
+msgstr "debajo de la tabla de próximos conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1577
+msgid "below my sidebar listing"
+msgstr "debajo del listado en la Barra Lateral"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1578
+msgid "in the <code>head</code> portion of my page"
+msgstr "en la parte <code>head</code> de mi página"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1579
+msgid "Your RSS feed for upcoming shows is"
+msgstr "El feed RSS de los próximos conciertos es"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1579
+msgid "Note that the FeedBurner FeedSmith plugin is not compatible with GigPress."
+msgstr "Ten en cuenta que el plugin FeedSmith de FeedBurner no es compatible con GigPress."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1583
+msgid "Tour grouping"
+msgstr "Agrupar giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1585
+msgid "Group shows into tours"
+msgstr "Agrupar conciertos en giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1587
+msgid "display tours <b>before</b> non-tour shows"
+msgstr "mostrar giras <b>antes</b> de los conciertos sin gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1588
+msgid "display tours <b>after</b> non-tour shows"
+msgstr "mostrar giras <b>después</b> de los conciertos sin gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1592
+msgid "Country display"
+msgstr "Mostrar país"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1594
+msgid "Display &lsquo;Country&rsquo; column."
+msgstr "¿Mostrar la columna &lsquo;País&rsquo;?"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1598
+msgid "Heading level of tour names"
+msgstr "Nivel de Encabezado de los nombres de giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1608
+msgid "Depending on the semantic structure of your page template, you may want the headings which display the name of your tour(s) to be a different level."
+msgstr "Según la estructura semántica de tu plantilla, puedes querer que los encabezados que muestran el nombre de las giras tengan un nivel diferente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1608
+msgid "More on HTML headings."
+msgstr "Más acerca de encabezados HTML."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1612
+msgid "Link behaviour"
+msgstr "Comportamiento de los enlaces"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1613
+msgid "Open external links in new windows."
+msgstr "Abrir enlaces en ventanas nuevas."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1614
+msgid "This will add the"
+msgstr "Esto añadirá el atributo"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1614
+msgid "attribute to all venue, ticket and Google Maps links. Keep in mind that this behaviour can be annoying to users who like to control their own web browser, and that this attribute does not validate under strict HTML doctypes."
+msgstr "a todos los enlaces a salas, entradas y Google Maps. Ten en cuenta que esto puede resultar molesto para los usuarios que prefieren controlar su propio navegador web, y que este atributo no valida bajo doctypes HTML estrictos."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1624
+msgid "Widget options"
+msgstr "Opciones del Widget"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1628
+msgid "List heading"
+msgstr "Título de la lista"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1634
+msgid "Number of shows to list"
+msgstr "Número de conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1637
+msgid "Any number from 1 to 99"
+msgstr "Cualquier número entre 1 y 99"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1641
+msgid "Segment sidebar list into tours?"
+msgstr "¿Dividir la lista en giras?"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1648
+msgid "Update Options"
+msgstr "Actualizar opciones"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1678
+msgid "You currently have"
+msgstr "Actualmente tienes"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1678
+msgid "shows"
+msgstr "conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1678
+msgid "tours"
+msgstr "giras"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1678
+msgid "in your trash"
+msgstr "en la papelera"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1680
+msgid "Take out the trash now"
+msgstr "Sacar la basura ahora"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1708
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1780
+msgid "You must enter a city."
+msgstr "Debes introducir una ciudad."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1709
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1781
+msgid "You must enter a venue (perhaps it's TBA?)"
+msgstr "Debes introducir una sala (¿tal vez \"sin confirmar\"?)"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1752
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1814
+msgid "Your show  in"
+msgstr "Tu concierto en"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1752
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1814
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2752
+msgid "on"
+msgstr "el"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1752
+msgid "was successfully added."
+msgstr "ha sido añadido correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1756
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1816
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1889
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1926
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2055
+msgid "Something ain&rsquo;t right - try again?"
+msgstr "Algo va mal. ¿Probamos de nuevo?"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1814
+msgid "was successfully updated."
+msgstr "ha sido actualizado correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1848
+msgid "Show successfully deleted."
+msgstr "Concierto borrado correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1848
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1965
+msgid "Undo"
+msgstr "deshacer"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1852
+msgid "We ran into some trouble deleting the show. Sorry."
+msgstr "Ha habido un problema al eliminar el concierto. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1875
+msgid "You need to enter a name for the tour. It&rsquo;s the only field for crying out loud!"
+msgstr "Debes introducir un nombre para la gira. Es el único campo, ¡por dios!"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1887
+msgid "was successfully added to the database."
+msgstr "ha sido añadido correctamente a la base de datos."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1913
+msgid "You need to enter a name for the tour!"
+msgstr "Debes introducir un nombre para la gira."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1924
+msgid "Tour name successfully changed to"
+msgstr "Nombre de la gira cambiado a"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1965
+msgid "Tour successfully deleted."
+msgstr "Gira borrada correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1969
+msgid "We ran into some trouble deleting the tour. Sorry."
+msgstr "Ha habido algún problema al borrar la gira. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1993
+msgid "Show successfully restored."
+msgstr "Concierto restaurado correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:1995
+msgid "We ran into some trouble restoring that show. Sorry."
+msgstr "Ha habido un problema al restaurar el concierto. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2012
+msgid "Tour successfully restored from the database."
+msgstr "Gira restaurada de la base de datos."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2014
+msgid "We ran into some trouble restoring the tour. Sorry."
+msgstr "Ha habido algún problema al restaurar la gira. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2053
+msgid "Tours successfully reordered."
+msgstr "Giras reordenadas correctamente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2080
+msgid "All shows in the trash have been permanently deleted."
+msgstr "Todos los conciertos de la papelera han sido borrados permanentemente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2082
+msgid "We ran into some trouble deleting shows from the trash. Sorry."
+msgstr "Ha habido un problema al eliminar conciertos de la papelera. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2090
+msgid "All tours in the trash have been permanently deleted."
+msgstr "Todas las giras de la papelera han sido borrados permanentemente."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2092
+msgid "We ran into some trouble deleting tours from the trash. Sorry."
+msgstr "Ha habido un problema al eliminar giras de la papelera. Lo siento."
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2156
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2622
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2842
+msgid "Upcoming shows RSS feed"
+msgstr "Feed RSS próximos conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2441
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2746
+msgid "Buy tickets"
+msgstr "Comprar entradas"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2463
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2529
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2752
+msgid "in"
+msgstr "en"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2473
+msgid "Time"
+msgstr "Hora"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2474
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2755
+msgid "Admission"
+msgstr "Precio"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2475
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2756
+msgid "Age restrictions"
+msgstr "Edades"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2619
+msgid "View all shows"
+msgstr "Ver calendario de conciertos"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2659
+msgid "GigPress widget options can be found on the"
+msgstr "Las opciones del widget de GigPress las puedes encontrar en"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2661
+msgid "GigPress options page"
+msgstr "la página de opciones de Gigpress"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2707
+msgid "Tour dates from"
+msgstr "Fechas de conciertos de"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2754
+msgid "Ends"
+msgstr "Finaliza"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2760
+msgid "Part of"
+msgstr "Gira"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2811
+msgid "You&rsquo;re using GigPress"
+msgstr "Estás usando GigPress"
+
+#: /Clients/GigPress/Plugin/svn/trunk/gigpress.php:2869
+msgid "Find this address using Google Maps."
+msgstr "Buscar dirección en Google Maps."
+
+#~ msgid "Add a new tour"
+#~ msgstr "Añadir una nueva gira"
+#~ msgid "Date added"
+#~ msgstr "Fecha en que se añadió"
+#~ msgid "Default Country"
+#~ msgstr "País por defecto"
+#~ msgid "Cascading Style Sheets"
+#~ msgstr "Hojas de estilo"
+#~ msgid "CSS"
+#~ msgstr "CSS"
+#~ msgid "Use GigPress&rsquo; default style sheet to display your tour dates"
+#~ msgstr "Usar la hoja de estilo de GigPress para mostrar los conciertos"
+#~ msgid "Use your own custom styles to d

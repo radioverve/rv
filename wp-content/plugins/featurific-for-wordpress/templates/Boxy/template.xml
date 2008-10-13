@@ -1,0 +1,42 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		A small gallery suitable for sites low on screen real-estate.  Works well in a sidebar.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+			[ul]
+				[li]url
+				[li]screen_duration
+				[li]image_1
+				[li]post_title
+				[li]post_excerpt
+				[li]categories
+			[/ul]
+			[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="150" height="200"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="previous"/>
+		<button type="next"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'max' resize type so that the image is guaranteed to fit in the display area. -->
+		<image filename="%image_1%" x="0" y="0" width="150" height="200" resizetype="max"/>
+		<default name="image_1" value="templates/Boxy/default.jpg"/>
+		
+		<!-- Lighter grey portion, behind text.  Note that this lighter grey portion is listed *after* the main image.  This will cause the main image to be cropped by the lighter grey portion.  This is necessary since we're using the 'min' resize type on the main image. -->
+		<image filename="templates/Boxy/greyF5.png" x="0" y="0" width="150" height="200" resizetype="exact" animatefromx="1500" animatefromy="0" animationspeed="5"/>
+		
+		<text x="5" y="0" width="140" animatefromx="1500" animatefromy="0" animationspeed="5">
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="10" fontcolor="black" text="%post_excerpt% (Read More)..."/>
+			<line fontsize="8" fontstyle="bold" fontcolor="black" text="Posted in: %categories%"/>
+		</text>
+	</screen>
+
+</data>

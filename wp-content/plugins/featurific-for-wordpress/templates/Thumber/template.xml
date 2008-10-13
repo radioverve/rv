@@ -1,0 +1,97 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Thumber is a great gallery to use if you have images included in the posts on your blog.  (If you don't include images in your posts, try one of the variants of Thumber)[br/]
+		Recommended settings:[br/]
+		[ul]
+			[li][b]Screen Assignment[/b]: Random
+		[/ul]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]background_offset_x
+			[li]background_offset_y
+			[li]background_width
+			[li]background_height
+			[li]post_title
+			[li]post_excerpt
+			[li]post_dotted_date
+			[li]post_human_time
+			[li]title_color
+			[li]excerpt_color
+			[li]date_time_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="200"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="numbers"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area.  Also notice that we resize it and move it such that only a portion of the image appears within the screen area. -->
+		<image filename="%image_1%" x="%background_offset_x%" y="%background_offset_y%" width="%background_width%" height="%background_height%" resizetype="min"/>
+		<default name="image_1" value="templates/Thumber/default.jpg"/>
+		<default name="background_offset_x" value="-100"/>
+		<default name="background_offset_y" value="-50"/>
+		<default name="background_width" value="600"/>
+		<default name="background_height" value="300"/>
+
+		<!-- Transparent overlays -->
+		<image filename="templates/Thumber/black50.png" x="0" y="0" width="200" height="200" resizetype="exact" animationspeed="6" animatefromx="-500" animatefromy="0"/>
+		<image filename="templates/Thumber/white80.png" x="200" y="0" width="200" height="200" resizetype="exact" animationspeed="6" animatefromx="700" animatefromy="0"/>
+
+		<!-- Black vertical line -->
+		<image filename="templates/Thumber/black.gif" x="200" y="0" width="2" height="200" resizetype="exact" animationspeed="6" animatefromx="200" animatefromy="-2000"/>
+
+		<image filename="templates/Thumber/black50.png" x="25" y="25" width="150" height="150" resizetype="exact" animationspeed="6" animatefromx="-500" animatefromy="25"/>
+		<image filename="%image_1%" x="35" y="35" width="130" height="130" resizetype="max" animationspeed="6" animatefromx="-500" animatefromy="35"/>
+		
+		<!-- Main text -->
+		<text x="210" y="5" width="180" animationspeed="6" animatefromx="700" animatefromy="5">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%"/>
+			<line fontsize="10" fontcolor="%date_time_color%" text="%post_dotted_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="%date_time_color%" text="Read More"/>
+		</text>
+		<default name="title_color" value="black"/>
+		<default name="excerpt_color" value="#0060ff"/>
+		<default name="date_time_color" value="#009700"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<!-- Main image.  Note that we use the 'min' resize type so that the image is guaranteed to fill the display area.  Also notice that we resize it and move it such that only a portion of the image appears within the screen area. -->
+		<image filename="%image_1%" x="-200" y="-100" width="600" height="300" resizetype="min"/>
+		<default name="image_1" value="templates/Thumber/default.jpg"/>
+
+		<!-- Transparent overlays -->
+		<image filename="templates/Thumber/black50.png" x="200" y="0" width="200" height="200" resizetype="exact" animationspeed="6" animatefromx="700" animatefromy="0"/>
+		<image filename="templates/Thumber/white80.png" x="0" y="0" width="200" height="200" resizetype="exact" animationspeed="6" animatefromx="-500" animatefromy="0"/>
+
+		<!-- Black vertical line -->
+		<image filename="templates/Thumber/black.gif" x="200" y="0" width="2" height="200" resizetype="exact" animationspeed="6" animatefromx="200" animatefromy="-2000"/>
+
+		<image filename="templates/Thumber/black50.png" x="225" y="25" width="150" height="150" resizetype="exact" animationspeed="6" animatefromx="700" animatefromy="25"/>
+		<image filename="%image_1%" x="235" y="35" width="130" height="130" resizetype="max" animationspeed="6" animatefromx="700" animatefromy="35"/>
+		
+		<!-- Main text -->
+		<text x="10" y="5" width="180" animationspeed="6" animatefromx="-500" animatefromy="5">
+			<line fontsize="18" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%"/>
+			<line fontsize="10" fontcolor="%date_time_color%" text="%post_dotted_date% @ %post_human_time%"/>
+			<line fontsize="10" fontcolor="%date_time_color%" text="Read More"/>
+		</text>
+		<default name="title_color" value="black"/>
+		<default name="excerpt_color" value="#0060ff"/>
+		<default name="date_time_color" value="#009700"/>
+	</screen>
+
+</data>

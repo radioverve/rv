@@ -1,0 +1,159 @@
+<data>
+	<!-- Notes about this template.  Use any HTML you like, but use '[' and ']' to define your tags.  (e.g. [h4]Notes[/h4])  To use the literals '[' and ']', use '&#91;' and '&#93;', respectively. -->
+	<notes>
+		Torn Paper.[br/]
+		[b]Optional[/b] custom fields available for post-specific override:[br/]
+		[ul]
+			[li]url
+			[li]screen_duration
+			[li]image_1
+			[li]post_title
+			[li]post_excerpt
+			[li]title_color
+			[li]excerpt_color
+			[li]read_more_color
+		[/ul]
+		[a href='http://featurific.com']Designed by Rich Christiansen[/a].
+	</notes>
+
+	<size width="400" height="300"/>
+	
+	<controlpanel>
+		<button type="play"/>
+		<button type="pause"/>
+		<button type="previous"/>
+		<button type="next"/>
+	</controlpanel>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/1.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="0" animatefromy="-100"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="56" y="56" width="300" animationspeed="6" animatefromx="56" animatefromy="-100">
+			<line fontsize="20" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="55" y="55" width="300" animationspeed="6" animatefromx="55" animatefromy="-100">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/2.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="500" animatefromy="0"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="46" y="56" width="300" animationspeed="6" animatefromx="500" animatefromy="56">
+			<line fontsize="20" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="45" y="55" width="300" animationspeed="6" animatefromx="500" animatefromy="55">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/3.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="0" animatefromy="400"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="51" y="41" width="300" animationspeed="6" animatefromx="51" animatefromy="400">
+			<line fontsize="20" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="50" y="40" width="300" animationspeed="6" animatefromx="50" animatefromy="400">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/4.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="-100" animatefromy="0"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="51" y="56" width="300" animationspeed="6" animatefromx="-100" animatefromy="56">
+			<line fontsize="20" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="50" y="55" width="300" animationspeed="6" animatefromx="-100" animatefromy="55">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/5.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="0" animatefromy="-100"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="76" y="51" width="250" animationspeed="6" animatefromx="76" animatefromy="-100">
+			<line fontsize="20" fontstyle="bold" fontcolor="white" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="white" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="75" y="50" width="250" animationspeed="6" animatefromx="75" animatefromy="-100">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="black"/>
+		<default name="excerpt_color" value="black"/>
+		<default name="read_more_color" value="black"/>
+	</screen>
+
+
+	<screen url="%url%" duration="%screen_duration%" transition="fade">
+		<image filename="templates/Torn Paper/6.png" x="0" y="0" width="400" height="300" animationspeed="6" animatefromx="0" animatefromy="400"/>
+		
+		<!-- Black shadow behind text -->
+		<text x="121" y="61" width="165" animationspeed="6" animatefromx="121" animatefromy="400">
+			<line fontsize="20" fontstyle="bold" fontcolor="black" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="black" text="%post_excerpt%..."/>
+		</text>
+
+		<!-- Main text -->
+		<text x="120" y="60" width="165" animationspeed="6" animatefromx="120" animatefromy="400">
+			<line fontsize="20" fontstyle="bold" fontcolor="%title_color%" text="%post_title%"/>
+			<line fontsize="14" fontstyle="bold" fontcolor="%excerpt_color%" text="%post_excerpt%..."/>
+			<line fontsize="12" fontstyle="bold" fontcolor="%read_more_color%" text="Read More"/>
+		</text>
+
+		<default name="title_color" value="white"/>
+		<default name="excerpt_color" value="white"/>
+		<default name="read_more_color" value="white"/>
+	</screen>
+</data>
